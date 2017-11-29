@@ -1,48 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
+LIBS:4hbd-base-rescue
 LIBS:ac-dc
 LIBS:adc-dac
 LIBS:Altera
@@ -99,6 +56,50 @@ LIBS:MCU_NXP_Kinetis
 LIBS:MCU_NXP_LPC
 LIBS:MCU_NXP_S08
 LIBS:MCU_Parallax
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32
+LIBS:MCU_Texas_MSP430
+LIBS:Mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:modules
+LIBS:Motor
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:Relay
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:Sensor_Current
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:supertex
+LIBS:Switch
+LIBS:texas
+LIBS:Transformer
+LIBS:Transistor
+LIBS:triac_thyristor
+LIBS:Valve
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
 LIBS:4hbd-base-cache
 EELAYER 25 0
 EELAYER END
@@ -209,6 +210,8 @@ $Comp
 L R R?
 U 1 1 5A1E09A7
 P 5600 2900
+AR Path="/5A1E09A7" Ref="R?"  Part="1" 
+AR Path="/5A1B9486/5A1E09A7" Ref="R?"  Part="1" 
 F 0 "R?" V 5680 2900 50  0000 C CNN
 F 1 "R" V 5600 2900 50  0000 C CNN
 F 2 "" H 5600 2900 50  0001 C CNN
@@ -220,6 +223,8 @@ $Comp
 L R R?
 U 1 1 5A1E0A1C
 P 5600 3400
+AR Path="/5A1E0A1C" Ref="R?"  Part="1" 
+AR Path="/5A1B9486/5A1E0A1C" Ref="R?"  Part="1" 
 F 0 "R?" V 5680 3400 50  0000 C CNN
 F 1 "R" V 5600 3400 50  0000 C CNN
 F 2 "" H 5600 3400 50  0001 C CNN
@@ -254,13 +259,13 @@ F 3 "" H 5100 2400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5050 3400 5350 3400
+	5050 3400 5450 3400
 Wire Wire Line
-	5850 3400 6100 3400
+	5750 3400 6100 3400
 Wire Wire Line
-	5850 2900 6100 2900
+	5750 2900 6100 2900
 Wire Wire Line
-	5350 2900 5050 2900
+	5050 2900 5450 2900
 Wire Wire Line
 	5050 3300 5250 3300
 Wire Wire Line
