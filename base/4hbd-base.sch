@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:4hbd-base-rescue
 LIBS:ac-dc
 LIBS:adc-dac
 LIBS:Altera
