@@ -290,6 +290,8 @@ $Comp
 L ACS712xLCTR-30A U6
 U 1 1 5A254D1D
 P 7400 3750
+AR Path="/5A254D1D" Ref="U6"  Part="1" 
+AR Path="/5A1B9486/5A254D1D" Ref="U6"  Part="1" 
 F 0 "U6" H 7500 4200 50  0000 L CNN
 F 1 "ACS712xLCTR-30A" H 7500 4100 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 7500 3400 50  0001 L CIN
@@ -833,7 +835,7 @@ Connection ~ 7400 3200
 Wire Wire Line
 	6700 3550 7000 3550
 Wire Wire Line
-	6700 3850 7000 3850
+	6700 3950 7000 3950
 Wire Wire Line
 	9550 3800 10100 3800
 Wire Wire Line
@@ -1117,6 +1119,8 @@ $Comp
 L ACS712xLCTR-30A U5
 U 1 1 5A264A96
 P 7400 2150
+AR Path="/5A264A96" Ref="U5"  Part="1" 
+AR Path="/5A1B9486/5A264A96" Ref="U5"  Part="1" 
 F 0 "U5" H 7500 2600 50  0000 L CNN
 F 1 "ACS712xLCTR-30A" H 7500 2500 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 7500 1800 50  0001 L CIN
@@ -1171,7 +1175,7 @@ Connection ~ 7400 1600
 Wire Wire Line
 	6700 1950 7000 1950
 Wire Wire Line
-	6700 2250 7000 2250
+	6700 2350 7000 2350
 Wire Wire Line
 	9150 1600 9150 1750
 Wire Wire Line
@@ -1188,7 +1192,7 @@ Text Label 9650 2200 0    60   ~ 0
 SPI0_MISO
 Text Label 5700 2200 0    60   ~ 0
 HB0
-Text Label 6700 2250 0    60   ~ 0
+Text Label 6700 2350 0    60   ~ 0
 HB0
 Text Label 6700 1950 0    60   ~ 0
 HB0s
@@ -1204,7 +1208,7 @@ Text Label 5700 3650 0    60   ~ 0
 HB1
 Text Label 5700 5100 0    60   ~ 0
 HB2
-Text Label 6700 3850 0    60   ~ 0
+Text Label 6700 3950 0    60   ~ 0
 HB2
 Text Label 6700 3550 0    60   ~ 0
 HB2s
