@@ -1,4 +1,4 @@
-update=Пт 08 дек 2017 13:30:31
+update=Сб 09 дек 2017 12:42:12
 version=1
 last_client=kicad
 [pcbnew]
@@ -35,3 +35,4 @@ LibName3=device
 LibName4=Diode
 LibName5=LED
 LibName6=ir
+LibName7=power
