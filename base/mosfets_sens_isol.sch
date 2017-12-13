@@ -633,12 +633,8 @@ Text Label 1200 1000 0    60   ~ 0
 +5Vpwr
 Text Label 1300 1100 0    60   ~ 0
 GNDD
-Text Label 7550 3000 0    60   ~ 0
-+5Vpwr
 Text Label 7500 5350 0    60   ~ 0
 +5Vpwr
-Text Label 9200 5350 0    60   ~ 0
-+3.3V
 Text Label 7500 4500 0    60   ~ 0
 +12Vpwr
 Text Label 7500 4950 0    60   ~ 0
@@ -1527,4 +1523,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 4150 2050 4300
 Connection ~ 1850 4150
+Text Label 9200 5350 0    60   ~ 0
++5Vpwr
 $EndSCHEMATC
