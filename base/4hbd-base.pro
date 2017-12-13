@@ -1,4 +1,4 @@
-update=Сб 09 дек 2017 12:42:12
+update=13.12.2017 16:02:00
 version=1
 last_client=kicad
 [pcbnew]
@@ -36,3 +36,6 @@ LibName4=Diode
 LibName5=LED
 LibName6=ir
 LibName7=power
+LibName8=analog_devices
+LibName9=nxp
+LibName10=Logic_74xx

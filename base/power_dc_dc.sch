@@ -6,6 +6,9 @@ LIBS:Diode
 LIBS:LED
 LIBS:ir
 LIBS:power
+LIBS:analog_devices
+LIBS:nxp
+LIBS:Logic_74xx
 LIBS:4hbd-base-cache
 EELAYER 25 0
 EELAYER END
@@ -24,9 +27,9 @@ $EndDescr
 Text HLabel 7300 2900 0    60   Input ~ 0
 +24VP
 Text HLabel 5000 2900 0    60   Output ~ 0
-+15V
++12Vpwr
 Text HLabel 5000 3000 0    60   Output ~ 0
-+5V
++5Vpwr
 Text HLabel 7300 3000 0    60   UnSpc ~ 0
 GNDP
 $EndSCHEMATC

@@ -6,6 +6,9 @@ LIBS:Diode
 LIBS:LED
 LIBS:ir
 LIBS:power
+LIBS:analog_devices
+LIBS:nxp
+LIBS:Logic_74xx
 LIBS:4hbd-base-cache
 EELAYER 25 0
 EELAYER END
