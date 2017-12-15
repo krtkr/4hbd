@@ -9,6 +9,7 @@ LIBS:power
 LIBS:analog_devices
 LIBS:nxp
 LIBS:Logic_74xx
+LIBS:silabs
 LIBS:4hbd-base-cache
 EELAYER 25 0
 EELAYER END
@@ -317,7 +318,9 @@ Wire Wire Line
 Wire Wire Line
 	4800 3700 4800 3800
 Wire Wire Line
-	9100 5300 8600 5300
+	5100 5300 8600 5300
+Wire Wire Line
+	8600 5300 9100 5300
 Wire Wire Line
 	8600 5300 8600 4600
 Wire Wire Line
@@ -373,7 +376,9 @@ Wire Wire Line
 Wire Wire Line
 	6500 5500 6500 6100
 Wire Wire Line
-	6500 6100 4600 6100
+	6500 6100 5000 6100
+Wire Wire Line
+	5000 6100 4600 6100
 Wire Wire Line
 	4600 3600 5000 3600
 Wire Wire Line
@@ -389,7 +394,9 @@ Wire Wire Line
 Wire Wire Line
 	9100 2900 8200 2900
 Wire Wire Line
-	10300 5400 10600 5400
+	10300 5400 10400 5400
+Wire Wire Line
+	10400 5400 10600 5400
 Wire Wire Line
 	10600 5500 10500 5500
 Wire Wire Line
@@ -413,7 +420,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 4100 6900 4100
 Wire Wire Line
-	6500 5500 9100 5500
+	6500 5500 8700 5500
+Wire Wire Line
+	8700 5500 9100 5500
 Wire Wire Line
 	6000 4300 6900 4300
 Wire Wire Line
@@ -527,7 +536,9 @@ Wire Wire Line
 Wire Wire Line
 	2800 6200 2800 6300
 Wire Wire Line
-	1400 7000 1200 7000
+	1400 7000 1300 7000
+Wire Wire Line
+	1300 7000 1200 7000
 $Comp
 L GNDPWR #PWR3
 U 1 1 5A1F43A1
@@ -564,7 +575,9 @@ $EndComp
 Wire Wire Line
 	2600 6800 2300 6800
 Wire Wire Line
-	2600 3400 2600 6800
+	2600 3400 2600 6100
+Wire Wire Line
+	2600 6100 2600 6800
 Wire Wire Line
 	2600 6100 3000 6100
 Wire Wire Line
@@ -590,7 +603,9 @@ $EndComp
 Wire Wire Line
 	900  6800 1300 6800
 Wire Wire Line
-	900  6700 1400 6700
+	900  6700 1200 6700
+Wire Wire Line
+	1200 6700 1400 6700
 Wire Wire Line
 	900  6600 1100 6600
 Wire Wire Line
@@ -707,7 +722,19 @@ $EndComp
 Wire Wire Line
 	1200 7000 1200 7100
 Wire Wire Line
-	1300 3500 1300 7000
+	1300 3500 1300 3900
+Wire Wire Line
+	1300 3900 1300 4300
+Wire Wire Line
+	1300 4300 1300 4700
+Wire Wire Line
+	1300 4700 1300 5700
+Wire Wire Line
+	1300 5700 1300 6100
+Wire Wire Line
+	1300 6100 1300 6800
+Wire Wire Line
+	1300 6800 1300 7000
 Connection ~ 1300 7000
 Wire Wire Line
 	1300 6100 900  6100
@@ -716,7 +743,17 @@ Wire Wire Line
 	1300 5700 900  5700
 Connection ~ 1300 6100
 Wire Wire Line
-	1200 3300 1200 6700
+	1200 3300 1200 3700
+Wire Wire Line
+	1200 3700 1200 4100
+Wire Wire Line
+	1200 4100 1200 4500
+Wire Wire Line
+	1200 4500 1200 4900
+Wire Wire Line
+	1200 4900 1200 5200
+Wire Wire Line
+	1200 5200 1200 6700
 Wire Wire Line
 	1200 5200 900  5200
 Connection ~ 1200 6700
@@ -807,4 +844,11 @@ Wire Wire Line
 	2100 5800 2100 6000
 Wire Wire Line
 	2100 6000 900  6000
+Wire Wire Line
+	5100 5300 5100 3500
+Wire Wire Line
+	5100 3500 4600 3500
+Connection ~ 8600 5300
+Text HLabel 4600 3500 0    60   Input ~ 0
++5V
 $EndSCHEMATC

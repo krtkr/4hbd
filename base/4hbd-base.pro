@@ -1,4 +1,4 @@
-update=13.12.2017 16:02:00
+update=15.12.2017 14:57:59
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,5 +37,4 @@ LibName5=LED
 LibName6=ir
 LibName7=power
 LibName8=analog_devices
-LibName9=nxp
-LibName10=Logic_74xx
+LibName9=silabs

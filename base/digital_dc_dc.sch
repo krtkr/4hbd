@@ -9,6 +9,7 @@ LIBS:power
 LIBS:analog_devices
 LIBS:nxp
 LIBS:Logic_74xx
+LIBS:silabs
 LIBS:4hbd-base-cache
 EELAYER 25 0
 EELAYER END
