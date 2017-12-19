@@ -1,4 +1,4 @@
-update=15.12.2017 14:57:59
+update=Вт 19 дек 2017 16:48:03
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,3 +38,5 @@ LibName6=ir
 LibName7=power
 LibName8=analog_devices
 LibName9=silabs
+LibName10=dc-dc
+LibName11=regul
