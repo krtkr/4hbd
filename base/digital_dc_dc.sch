@@ -10,12 +10,14 @@ LIBS:analog_devices
 LIBS:silabs
 LIBS:dc-dc
 LIBS:regul
+LIBS:interface
+LIBS:ESD_Protection
 LIBS:4hbd-base-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -653,4 +655,11 @@ Wire Wire Line
 	9000 3300 9000 3200
 Connection ~ 9000 3200
 Connection ~ 10050 3700
+Text HLabel 6400 2500 2    60   Output ~ 0
++Vpp
+Wire Wire Line
+	6200 3000 6200 2500
+Wire Wire Line
+	6200 2500 6400 2500
+Connection ~ 6200 3000
 $EndSCHEMATC

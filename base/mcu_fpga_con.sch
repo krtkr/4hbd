@@ -10,12 +10,14 @@ LIBS:analog_devices
 LIBS:silabs
 LIBS:dc-dc
 LIBS:regul
+LIBS:interface
+LIBS:ESD_Protection
 LIBS:4hbd-base-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -103,7 +105,7 @@ U 1 1 5A2BAF82
 P 4000 2600
 F 0 "J14" H 4050 3900 50  0000 C CNN
 F 1 "Conn_02x25_Odd_Even" H 4050 1300 50  0000 C CNN
-F 2 "" H 4000 2600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Vertical" H 4000 2600 50  0001 C CNN
 F 3 "" H 4000 2600 50  0001 C CNN
 	1    4000 2600
 	1    0    0    -1  
@@ -114,7 +116,7 @@ U 1 1 5A2BB01B
 P 6700 2600
 F 0 "J15" H 6750 3900 50  0000 C CNN
 F 1 "Conn_02x25_Odd_Even" H 6750 1300 50  0000 C CNN
-F 2 "" H 6700 2600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Vertical" H 6700 2600 50  0001 C CNN
 F 3 "" H 6700 2600 50  0001 C CNN
 	1    6700 2600
 	-1   0    0    1   

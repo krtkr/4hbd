@@ -1,0 +1,200 @@
+EESchema Schematic File Version 2
+LIBS:adc-dac
+LIBS:Connector
+LIBS:device
+LIBS:Diode
+LIBS:LED
+LIBS:ir
+LIBS:power
+LIBS:analog_devices
+LIBS:silabs
+LIBS:dc-dc
+LIBS:regul
+LIBS:interface
+LIBS:ESD_Protection
+LIBS:4hbd-base-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3500 2500 2    60   BiDi ~ 0
+CAN_H
+Text HLabel 3500 2600 2    60   BiDi ~ 0
+CAN_L
+Text HLabel 5400 3500 0    60   BiDi ~ 0
+RS485+
+Text HLabel 5400 3600 0    60   BiDi ~ 0
+RS485-
+Text HLabel 6900 3250 0    60   Input ~ 0
+RS485_TX
+Text HLabel 6900 3350 0    60   Input ~ 0
+RS485_TXEN
+Text HLabel 6900 3450 0    60   Output ~ 0
+RS485_RX
+Text HLabel 6900 3700 0    60   Input ~ 0
++5V
+$Comp
+L SN65HVD230 U?
+U 1 1 5A3C3395
+P 2000 2500
+F 0 "U?" H 1900 2900 50  0000 R CNN
+F 1 "SN65HVD230" H 1900 2800 50  0000 R CNN
+F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 2000 2000 50  0001 C CNN
+F 3 "" H 1900 2900 50  0001 C CNN
+	1    2000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2500 3500 2500
+Wire Wire Line
+	2400 2600 3500 2600
+$Comp
+L C C?
+U 1 1 5A3C342C
+P 1500 1150
+F 0 "C?" H 1525 1250 50  0000 L CNN
+F 1 "0.1uF" H 1525 1050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1538 1000 50  0001 C CNN
+F 3 "" H 1500 1150 50  0001 C CNN
+	1    1500 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1000 1500 900 
+Wire Wire Line
+	1300 900  1700 900 
+Wire Wire Line
+	1500 1300 1500 1400
+Wire Wire Line
+	1300 1400 1700 1400
+Text HLabel 1300 900  0    60   Input ~ 0
++3.3V
+Connection ~ 1500 900 
+Connection ~ 1500 1400
+Text HLabel 1300 1400 0    60   UnSpc ~ 0
+GNDD
+$Comp
+L +3.3V #PWR?
+U 1 1 5A3C351C
+P 1700 900
+F 0 "#PWR?" H 1700 750 50  0001 C CNN
+F 1 "+3.3V" H 1700 1040 50  0000 C CNN
+F 2 "" H 1700 900 50  0001 C CNN
+F 3 "" H 1700 900 50  0001 C CNN
+	1    1700 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A3C3534
+P 1700 1400
+F 0 "#PWR?" H 1700 1150 50  0001 C CNN
+F 1 "GND" H 1700 1250 50  0000 C CNN
+F 2 "" H 1700 1400 50  0001 C CNN
+F 3 "" H 1700 1400 50  0001 C CNN
+	1    1700 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A3C354C
+P 2000 3000
+F 0 "#PWR?" H 2000 2750 50  0001 C CNN
+F 1 "GND" H 2000 2850 50  0000 C CNN
+F 2 "" H 2000 3000 50  0001 C CNN
+F 3 "" H 2000 3000 50  0001 C CNN
+	1    2000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3000 2000 2900
+$Comp
+L +3.3V #PWR?
+U 1 1 5A3C3569
+P 2000 2100
+F 0 "#PWR?" H 2000 1950 50  0001 C CNN
+F 1 "+3.3V" H 2000 2240 50  0000 C CNN
+F 2 "" H 2000 2100 50  0001 C CNN
+F 3 "" H 2000 2100 50  0001 C CNN
+	1    2000 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2200 2000 2100
+$Comp
+L R R?
+U 1 1 5A3C3843
+P 1400 2950
+F 0 "R?" V 1480 2950 50  0000 C CNN
+F 1 "100" V 1400 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1330 2950 50  0001 C CNN
+F 3 "" H 1400 2950 50  0001 C CNN
+	1    1400 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2800 1400 2700
+Wire Wire Line
+	1400 2700 1600 2700
+Wire Wire Line
+	1400 3100 1400 3200
+$Comp
+L GND #PWR?
+U 1 1 5A3C38B7
+P 1400 3200
+F 0 "#PWR?" H 1400 2950 50  0001 C CNN
+F 1 "GND" H 1400 3050 50  0000 C CNN
+F 2 "" H 1400 3200 50  0001 C CNN
+F 3 "" H 1400 3200 50  0001 C CNN
+	1    1400 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 1100 2400 0    60   Input ~ 0
+CAN_TX
+Wire Wire Line
+	1100 2400 1600 2400
+Text HLabel 1400 2500 0    60   Output ~ 0
+CAN_RX
+Wire Wire Line
+	1400 2500 1600 2500
+$Comp
+L NUP2105L D?
+U 1 1 5A3C4E77
+P 2700 2900
+F 0 "D?" H 2925 3000 50  0000 L CNN
+F 1 "NUP2105L" H 2925 2925 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2925 2850 50  0001 L CNN
+F 3 "" H 2825 3025 50  0001 C CNN
+	1    2700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2700 2800 2500
+Connection ~ 2800 2500
+Wire Wire Line
+	2600 2700 2600 2600
+Connection ~ 2600 2600
+Wire Wire Line
+	2700 3100 2700 3200
+$Comp
+L GND #PWR?
+U 1 1 5A3C4FCE
+P 2700 3200
+F 0 "#PWR?" H 2700 2950 50  0001 C CNN
+F 1 "GND" H 2700 3050 50  0000 C CNN
+F 2 "" H 2700 3200 50  0001 C CNN
+F 3 "" H 2700 3200 50  0001 C CNN
+	1    2700 3200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

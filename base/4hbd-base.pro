@@ -1,4 +1,4 @@
-update=Вт 19 дек 2017 16:48:03
+update=Ср 20 дек 2017 12:25:40
 version=1
 last_client=kicad
 [pcbnew]
@@ -40,3 +40,5 @@ LibName8=analog_devices
 LibName9=silabs
 LibName10=dc-dc
 LibName11=regul
+LibName12=interface
+LibName13=ESD_Protection

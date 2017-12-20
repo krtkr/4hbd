@@ -10,12 +10,14 @@ LIBS:analog_devices
 LIBS:silabs
 LIBS:dc-dc
 LIBS:regul
+LIBS:interface
+LIBS:ESD_Protection
 LIBS:4hbd-base-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
