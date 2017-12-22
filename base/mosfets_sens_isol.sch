@@ -1557,4 +1557,104 @@ Wire Wire Line
 	9800 3700 9750 3700
 Wire Wire Line
 	9750 3700 9750 3800
+Text HLabel 9400 1000 0    60   Output ~ 0
+Csense0
+Text HLabel 9400 2600 0    60   Output ~ 0
+Csense1
+$Comp
+L R R?
+U 1 1 5A3EBCC5
+P 9250 1200
+F 0 "R?" V 9350 1200 50  0000 C CNN
+F 1 "360" V 9250 1200 50  0000 C CNN
+F 2 "" H 9250 1200 50  0001 C CNN
+F 3 "" H 9250 1200 50  0001 C CNN
+	1    9250 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A3EC054
+P 9750 1200
+F 0 "R?" V 9850 1200 50  0000 C CNN
+F 1 "680" V 9750 1200 50  0000 C CNN
+F 2 "" H 9750 1200 50  0001 C CNN
+F 3 "" H 9750 1200 50  0001 C CNN
+	1    9750 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 1200 9000 1200
+Wire Wire Line
+	9000 1200 9000 1800
+Connection ~ 9000 1800
+Wire Wire Line
+	9400 1200 9600 1200
+Wire Wire Line
+	9500 1200 9500 1000
+Wire Wire Line
+	9500 1000 9400 1000
+Connection ~ 9500 1200
+Wire Wire Line
+	9900 1200 10200 1200
+Text Label 10000 1200 0    60   ~ 0
+GNDD
+Wire Wire Line
+	9500 2600 9400 2600
+Connection ~ 9000 3400
+Text Notes 8250 1350 0    60   ~ 0
+Place resistors\nclose to IDC\nconnector
+Wire Notes Line
+	8250 1050 9900 1050
+Wire Notes Line
+	9900 1050 9900 1350
+Wire Notes Line
+	9900 1350 8250 1350
+Wire Notes Line
+	8250 1350 8250 1050
+$Comp
+L R R?
+U 1 1 5A3EE220
+P 9250 2800
+F 0 "R?" V 9350 2800 50  0000 C CNN
+F 1 "360" V 9250 2800 50  0000 C CNN
+F 2 "" H 9250 2800 50  0001 C CNN
+F 3 "" H 9250 2800 50  0001 C CNN
+	1    9250 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A3EE226
+P 9750 2800
+F 0 "R?" V 9850 2800 50  0000 C CNN
+F 1 "680" V 9750 2800 50  0000 C CNN
+F 2 "" H 9750 2800 50  0001 C CNN
+F 3 "" H 9750 2800 50  0001 C CNN
+	1    9750 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 2800 9000 2800
+Wire Wire Line
+	9000 2800 9000 3400
+Wire Wire Line
+	9400 2800 9600 2800
+Wire Wire Line
+	9500 2800 9500 2600
+Connection ~ 9500 2800
+Wire Wire Line
+	9900 2800 10200 2800
+Text Label 10000 2800 0    60   ~ 0
+GNDD
+Text Notes 8250 2950 0    60   ~ 0
+Place resistors\nclose to IDC\nconnector
+Wire Notes Line
+	8250 2650 9900 2650
+Wire Notes Line
+	9900 2650 9900 2950
+Wire Notes Line
+	9900 2950 8250 2950
+Wire Notes Line
+	8250 2950 8250 2650
 $EndSCHEMATC

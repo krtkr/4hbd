@@ -92,12 +92,12 @@ EncB
 Text HLabel 3400 2600 0    60   Input ~ 0
 EncZ
 Text HLabel 3400 2200 0    60   Input ~ 0
-TempAnalog
+ADC_Csens1
 Text HLabel 7300 3200 2    60   Output ~ 0
 PWM
 Text HLabel 7300 3400 2    60   Input ~ 0
 Pulse
-Text HLabel 4700 2100 2    60   Input ~ 0
+Text HLabel 4700 3100 2    60   Input ~ 0
 Vsense1
 $Comp
 L Conn_02x25_Odd_Even J14
@@ -282,9 +282,9 @@ Wire Wire Line
 Wire Wire Line
 	3800 2200 3400 2200
 Wire Wire Line
-	4700 2100 4300 2100
+	4700 3100 4300 3100
 Text HLabel 3400 2100 0    60   Input ~ 0
-Vsense0
+ADC_Csens0
 Wire Wire Line
 	6400 3800 6000 3800
 Wire Wire Line
@@ -319,4 +319,8 @@ Wire Wire Line
 	6400 2200 6000 2200
 Wire Wire Line
 	6400 2300 6000 2300
+Text HLabel 4700 3000 2    60   Input ~ 0
+Vsense0
+Wire Wire Line
+	4700 3000 4300 3000
 $EndSCHEMATC

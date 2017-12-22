@@ -28,7 +28,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3000 1400 1600 2400
+S 3000 1100 1600 2800
 U 5A1B9486
 F0 "MOSFETs/CurSense/Isolation" 60
 F1 "mosfets_sens_isol.sch" 60
@@ -56,8 +56,11 @@ F22 "+3.3V" I R 4600 3600 60
 F23 "GNDD" U R 4600 3700 60 
 F24 "Vpwr" I L 3000 3200 60 
 F25 "+12Vpwr" I L 3000 3300 60 
-F26 "+5Vprw" I L 3000 3400 60 
-F27 "GNDP" U L 3000 3500 60 
+F26 "GNDP" U L 3000 3500 60 
+F27 "+5Vpwr" I L 3000 3400 60 
+F28 "+5V" I R 4600 3500 60 
+F29 "Csense0" O R 4600 1300 60 
+F30 "Csense1" O R 4600 1400 60 
 $EndSheet
 $Sheet
 S 3000 4300 1600 1500
@@ -80,9 +83,9 @@ F14 "GNDD" U R 4600 5500 60
 F15 "GNDP" U L 3000 5500 60 
 F16 "+12V" I L 3000 5400 60 
 $EndSheet
-Text Notes 3700 1100 2    60   ~ 0
+Text Notes 3700 900  2    60   ~ 0
 Power Voltages Domain
-Text Notes 3900 1100 0    60   ~ 0
+Text Notes 3900 900  0    60   ~ 0
 Digital Voltages Domain
 $Sheet
 S 8800 800  1200 1000
@@ -136,10 +139,14 @@ F30 "GNDD" U R 8200 4700 60
 F31 "EncA" I R 8200 2700 60 
 F32 "EncB" I R 8200 2800 60 
 F33 "EncZ" I R 8200 2900 60 
-F34 "TempAnalog" I R 8200 1300 60 
-F35 "PWM" O R 8200 1400 60 
-F36 "Pulse" I R 8200 1500 60 
-F37 "Vsense" I R 8200 1600 60 
+F34 "PWM" O R 8200 1400 60 
+F35 "Pulse" I R 8200 1500 60 
+F36 "Vsense1" I R 8200 1600 60 
+F37 "+3.3V" O R 8200 4500 60 
+F38 "PWM_Trip" I L 6900 1500 60 
+F39 "Vsense0" I R 8200 1300 60 
+F40 "ADC_Csens1" I L 6900 1400 60 
+F41 "ADC_Csens0" I L 6900 1300 60 
 $EndSheet
 $Sheet
 S 9100 4950 1200 1100
@@ -733,8 +740,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 3500 4600 3500
 Connection ~ 8600 5300
-Text HLabel 4600 3500 0    60   Input ~ 0
-+5V
 Wire Wire Line
 	3000 5400 2500 5400
 Connection ~ 2500 5400
@@ -843,4 +848,8 @@ Wire Wire Line
 	10300 5200 10400 5200
 Wire Wire Line
 	10400 5200 10400 1400
+Wire Wire Line
+	4600 1300 6900 1300
+Wire Wire Line
+	4600 1400 6900 1400
 $EndSCHEMATC

@@ -27,12 +27,277 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 7300 2900 0    60   Input ~ 0
+Text HLabel 2900 1700 0    60   Input ~ 0
 +24VP
-Text HLabel 5000 2900 0    60   Output ~ 0
+Text HLabel 7200 1700 2    60   Output ~ 0
 +12Vpwr
-Text HLabel 5000 3000 0    60   Output ~ 0
+Text HLabel 9500 1900 2    60   Output ~ 0
 +5Vpwr
-Text HLabel 7300 3000 0    60   UnSpc ~ 0
+Text HLabel 2900 2200 0    60   UnSpc ~ 0
 GNDP
+$Comp
+L CP C?
+U 1 1 5A3CC87A
+P 4400 1950
+F 0 "C?" H 4425 2050 50  0000 L CNN
+F 1 "100uF 35V" H 4425 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4438 1800 50  0001 C CNN
+F 3 "" H 4400 1950 50  0001 C CNN
+	1    4400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1N5822 D?
+U 1 1 5A3CCF01
+P 3250 1700
+F 0 "D?" H 3250 1800 50  0000 C CNN
+F 1 "1N5822" H 3250 1600 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 3250 1525 50  0001 C CNN
+F 3 "" H 3250 1700 50  0001 C CNN
+	1    3250 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L D_TVS D?
+U 1 1 5A3CCF8D
+P 3500 1950
+F 0 "D?" H 3500 2050 50  0000 C CNN
+F 1 "SMBJ30CA" H 3500 1850 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 3500 1950 50  0001 C CNN
+F 3 "" H 3500 1950 50  0001 C CNN
+	1    3500 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5A3CD01A
+P 3800 1950
+F 0 "C?" H 3825 2050 50  0000 L CNN
+F 1 "3.3nF 50V" H 3825 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3838 1800 50  0001 C CNN
+F 3 "" H 3800 1950 50  0001 C CNN
+	1    3800 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1700 5000 1700
+Wire Wire Line
+	2900 1700 3100 1700
+Wire Wire Line
+	3500 1800 3500 1700
+Connection ~ 3500 1700
+Wire Wire Line
+	4400 2100 4400 2200
+Connection ~ 4400 2200
+Wire Wire Line
+	3800 2100 3800 2200
+Connection ~ 3800 2200
+Wire Wire Line
+	3500 2100 3500 2200
+Connection ~ 3500 2200
+Wire Wire Line
+	3800 1800 3800 1700
+Connection ~ 3800 1700
+Wire Wire Line
+	4400 1800 4400 1700
+Connection ~ 4400 1700
+$Comp
+L CP C?
+U 1 1 5A3CE026
+P 6900 2150
+F 0 "C?" H 6925 2250 50  0000 L CNN
+F 1 "100uF 16V" H 6925 2050 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 6938 2000 50  0001 C CNN
+F 3 "" H 6900 2150 50  0001 C CNN
+	1    6900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L AP1117-15 U?
+U 1 1 5A3CE6FE
+P 7900 1900
+F 0 "U?" H 7750 2025 50  0000 C CNN
+F 1 "AMS1117-5.0" H 7900 2025 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 7900 2100 50  0001 C CNN
+F 3 "" H 8000 1650 50  0001 C CNN
+	1    7900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2400 7900 2200
+$Comp
+L CP C?
+U 1 1 5A3CEB23
+P 8400 2150
+F 0 "C?" H 8425 2250 50  0000 L CNN
+F 1 "220uF 10V" H 8425 2050 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 8438 2000 50  0001 C CNN
+F 3 "" H 8400 2150 50  0001 C CNN
+	1    8400 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1900 9500 1900
+Wire Wire Line
+	8400 1900 8400 2000
+$Comp
+L C C?
+U 1 1 5A3CEF52
+P 9000 2150
+F 0 "C?" H 9025 2250 50  0000 L CNN
+F 1 "4.7uF 6.3V" H 9025 2050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9038 2000 50  0001 C CNN
+F 3 "" H 9000 2150 50  0001 C CNN
+	1    9000 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 8400 1900
+Wire Wire Line
+	9000 2000 9000 1900
+Connection ~ 9000 1900
+Wire Wire Line
+	2900 2200 4900 2200
+$Comp
+L LM2596S-ADJ U?
+U 1 1 5A3D049F
+P 5500 1800
+F 0 "U?" H 5100 2050 50  0000 L CNN
+F 1 "LM2596S-ADJ" H 5500 2050 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-5_TabPin3" H 5550 1550 50  0001 L CIN
+F 3 "" H 5500 1800 50  0001 C CNN
+	1    5500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1N5822 D?
+U 1 1 5A3D0B74
+P 6200 2150
+F 0 "D?" H 6200 2250 50  0000 C CNN
+F 1 "1N5822" H 6200 2050 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 6200 1975 50  0001 C CNN
+F 3 "" H 6200 2150 50  0001 C CNN
+	1    6200 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 1900 4900 2400
+Wire Wire Line
+	4900 1900 5000 1900
+Wire Wire Line
+	4900 2400 9500 2400
+Connection ~ 4900 2200
+Wire Wire Line
+	5500 2100 5500 2500
+Connection ~ 5500 2400
+Wire Wire Line
+	6200 2400 6200 2300
+Connection ~ 6200 2400
+Wire Wire Line
+	6200 2000 6200 1900
+Wire Wire Line
+	6000 1900 6400 1900
+$Comp
+L L L?
+U 1 1 5A3D14CE
+P 6550 1900
+F 0 "L?" V 6500 1900 50  0000 C CNN
+F 1 "33R 1A" V 6625 1900 50  0000 C CNN
+F 2 "Inductor_SMD:L_7.3x7.3_H3.5" H 6550 1900 50  0001 C CNN
+F 3 "" H 6550 1900 50  0001 C CNN
+	1    6550 1900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6200 1900
+Wire Wire Line
+	6000 1700 6400 1700
+$Comp
+L R R?
+U 1 1 5A3D2233
+P 6550 1700
+F 0 "R?" V 6630 1700 50  0000 C CNN
+F 1 "10K" V 6550 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6480 1700 50  0001 C CNN
+F 3 "" H 6550 1700 50  0001 C CNN
+	1    6550 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A3D2341
+P 6550 1400
+F 0 "R?" V 6630 1400 50  0000 C CNN
+F 1 "1K" V 6550 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6480 1400 50  0001 C CNN
+F 3 "" H 6550 1400 50  0001 C CNN
+	1    6550 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 1700 6200 1400
+Wire Wire Line
+	6200 1400 6400 1400
+Connection ~ 6200 1700
+Wire Wire Line
+	6700 1400 6900 1400
+$Comp
+L R R?
+U 1 1 5A3D26F4
+P 7050 1400
+F 0 "R?" V 7130 1400 50  0000 C CNN
+F 1 "360" V 7050 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6980 1400 50  0001 C CNN
+F 3 "" H 7050 1400 50  0001 C CNN
+	1    7050 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 1400 7400 1400
+$Comp
+L GNDPWR #PWR?
+U 1 1 5A3D27D8
+P 7400 1400
+F 0 "#PWR?" H 7400 1200 50  0001 C CNN
+F 1 "GNDPWR" H 7400 1270 50  0000 C CNN
+F 2 "" H 7400 1350 50  0001 C CNN
+F 3 "" H 7400 1350 50  0001 C CNN
+	1    7400 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5A3D2843
+P 5500 2500
+F 0 "#PWR?" H 5500 2300 50  0001 C CNN
+F 1 "GNDPWR" H 5500 2370 50  0000 C CNN
+F 2 "" H 5500 2450 50  0001 C CNN
+F 3 "" H 5500 2450 50  0001 C CNN
+	1    5500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1700 6900 1700
+Wire Wire Line
+	6900 1700 6900 2000
+Wire Wire Line
+	6700 1900 7600 1900
+Connection ~ 6900 1900
+Wire Wire Line
+	6900 2400 6900 2300
+Connection ~ 6900 2400
+Wire Wire Line
+	7100 1900 7100 1700
+Wire Wire Line
+	7100 1700 7200 1700
+Connection ~ 7100 1900
+Wire Wire Line
+	8400 2400 8400 2300
+Connection ~ 7900 2400
+Wire Wire Line
+	9000 2400 9000 2300
+Connection ~ 8400 2400
+Connection ~ 9000 2400
+Text Notes 6200 1200 0    60   ~ 0
+Output voltage set to 10.27V here, should be enough for drivers
+Text Notes 9450 2050 0    60   ~ 0
+Consumtion 10 mA .. 70 mA expected
 $EndSCHEMATC
