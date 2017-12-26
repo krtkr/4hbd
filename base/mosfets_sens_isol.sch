@@ -12,6 +12,7 @@ LIBS:dc-dc
 LIBS:regul
 LIBS:interface
 LIBS:ESD_Protection
+LIBS:texas
 LIBS:4hbd-base-cache
 EELAYER 25 0
 EELAYER END

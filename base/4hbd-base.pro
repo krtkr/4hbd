@@ -1,4 +1,4 @@
-update=Ср 20 дек 2017 12:25:40
+update=Вт 26 дек 2017 13:12:35
 version=1
 last_client=kicad
 [pcbnew]
@@ -42,3 +42,4 @@ LibName10=dc-dc
 LibName11=regul
 LibName12=interface
 LibName13=ESD_Protection
+LibName14=texas
