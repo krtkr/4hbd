@@ -1,4 +1,4 @@
-update=Вт 26 дек 2017 13:12:35
+update=Ср 27 дек 2017 18:12:36
 version=1
 last_client=kicad
 [pcbnew]
@@ -43,3 +43,4 @@ LibName11=regul
 LibName12=interface
 LibName13=ESD_Protection
 LibName14=texas
+LibName15=opto
