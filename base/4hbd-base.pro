@@ -1,4 +1,4 @@
-update=Ср 27 дек 2017 18:12:36
+update=Чт 28 дек 2017 11:38:48
 version=1
 last_client=kicad
 [pcbnew]
@@ -44,3 +44,4 @@ LibName12=interface
 LibName13=ESD_Protection
 LibName14=texas
 LibName15=opto
+LibName16=maxim

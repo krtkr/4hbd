@@ -14,6 +14,7 @@ LIBS:interface
 LIBS:ESD_Protection
 LIBS:texas
 LIBS:opto
+LIBS:maxim
 LIBS:4hbd-base-cache
 EELAYER 25 0
 EELAYER END
@@ -531,4 +532,15 @@ Wire Wire Line
 Connection ~ 3250 3350
 Text Label 2300 3350 0    60   ~ 0
 GNDD
+$Comp
+L Q_NMOS_GSD Q?
+U 1 1 5A455FDA
+P 3750 1900
+F 0 "Q?" H 3950 1950 50  0000 L CNN
+F 1 "2N7002" H 3950 1850 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3950 2000 50  0001 C CNN
+F 3 "" H 3750 1900 50  0001 C CNN
+	1    3750 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

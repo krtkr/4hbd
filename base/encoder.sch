@@ -14,6 +14,7 @@ LIBS:interface
 LIBS:ESD_Protection
 LIBS:texas
 LIBS:opto
+LIBS:maxim
 LIBS:4hbd-base-cache
 EELAYER 25 0
 EELAYER END
@@ -67,16 +68,16 @@ Wire Wire Line
 Wire Wire Line
 	4800 2100 4800 2350
 Wire Wire Line
-	4300 2650 4000 2650
+	4300 2650 4150 2650
 Wire Wire Line
-	4000 2650 4000 2100
-Connection ~ 4000 2100
+	4150 2650 4150 2100
+Connection ~ 4150 2100
 Wire Wire Line
 	3750 4500 4800 4500
 Wire Wire Line
 	4800 4500 4800 4150
 Wire Wire Line
-	4300 2750 4150 2750
+	3850 2750 4300 2750
 Wire Wire Line
 	4150 2750 4150 4500
 Connection ~ 4150 4500
@@ -139,7 +140,7 @@ Wire Wire Line
 	4050 2950 4050 3050
 Connection ~ 4050 3050
 Wire Wire Line
-	4300 3650 3450 3650
+	3450 3650 4300 3650
 $Comp
 L R R39
 U 1 1 5A425470
@@ -173,4 +174,21 @@ Wire Wire Line
 	5300 3250 5500 3250
 Wire Wire Line
 	5300 3550 5500 3550
+$Comp
+L C_Small C?
+U 1 1 5A47F1CB
+P 3850 2350
+F 0 "C?" H 3860 2420 50  0000 L CNN
+F 1 "0.1uF" H 3860 2270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3850 2350 50  0001 C CNN
+F 3 "" H 3850 2350 50  0001 C CNN
+	1    3850 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2750 3850 2450
+Connection ~ 4150 2750
+Wire Wire Line
+	3850 2250 3850 2100
+Connection ~ 3850 2100
 $EndSCHEMATC

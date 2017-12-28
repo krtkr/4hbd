@@ -14,6 +14,7 @@ LIBS:interface
 LIBS:ESD_Protection
 LIBS:texas
 LIBS:opto
+LIBS:maxim
 LIBS:4hbd-base-cache
 EELAYER 25 0
 EELAYER END
