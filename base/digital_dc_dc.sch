@@ -571,7 +571,7 @@ Connection ~ 4100 5850
 Wire Wire Line
 	9000 3700 9000 3600
 Wire Wire Line
-	9000 3300 9000 3200
+	9000 3000 9000 3300
 Connection ~ 9000 3200
 Connection ~ 10050 3700
 Wire Wire Line
@@ -633,4 +633,15 @@ F 3 "" H 6400 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6200 2500
+$Comp
+L Test_Point TP?
+U 1 1 5A456659
+P 9000 3000
+F 0 "TP?" H 9000 3270 50  0000 C CNN
+F 1 "+6.8Vd" H 9000 3200 50  0000 C CNN
+F 2 "" H 9200 3000 50  0001 C CNN
+F 3 "" H 9200 3000 50  0001 C CNN
+	1    9000 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
