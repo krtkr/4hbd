@@ -50,16 +50,12 @@ Text HLabel 4700 2800 2    60   Output ~ 0
 SPI0_SCK
 Text HLabel 3400 2800 0    60   Output ~ 0
 SPI0_CSn
-Text HLabel 4700 2900 2    60   Output ~ 0
-SPI0_MOSI
 Text HLabel 3400 2900 0    60   Input ~ 0
 SPI0_MISO
 Text HLabel 6000 3800 0    60   Output ~ 0
 SPI1_SCK
 Text HLabel 7300 3800 2    60   Output ~ 0
 SPI1_CSn
-Text HLabel 6000 3700 0    60   Output ~ 0
-SPI1_MOSI
 Text HLabel 7300 3700 2    60   Input ~ 0
 SPI1_MISO
 Text HLabel 7300 2300 2    60   Input ~ 0
@@ -273,8 +269,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 2800 4300 2800
 Wire Wire Line
-	4700 2900 4300 2900
-Wire Wire Line
 	3800 2500 3400 2500
 Wire Wire Line
 	3800 2600 3400 2600
@@ -290,8 +284,6 @@ Text HLabel 3400 2100 0    60   Input ~ 0
 ADC_Csens0
 Wire Wire Line
 	6400 3800 6000 3800
-Wire Wire Line
-	6400 3700 6000 3700
 Wire Wire Line
 	7300 3800 6900 3800
 Wire Wire Line
