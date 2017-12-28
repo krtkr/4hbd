@@ -103,9 +103,9 @@ F6 "FAN_PWR" O R 10000 1100 60
 F7 "FAN_GND" O R 10000 1200 60 
 F8 "+Vpp" I R 10000 1500 60 
 F9 "GNDD" U R 10000 1600 60 
-F10 "Vsense" O L 8800 1600 60 
-F11 "TempAnalog_2" O L 8800 1700 60 
+F11 "TempAnalog_2" O L 8800 1600 60 
 F12 "+3.3V" I L 8800 1800 60 
+F13 "Vsense2" O L 8800 1700 60 
 $EndSheet
 $Sheet
 S 6900 1000 1300 4000
@@ -162,7 +162,6 @@ F1 "digital_dc_dc.sch" 60
 F2 "+24VD" I R 10300 5400 60 
 F3 "+5VEnc" O L 9100 5100 60 
 F4 "+5VMain" O L 9100 5300 60 
-F5 "+3.3VAux" O L 9100 5500 60 
 F6 "GNDD" U L 9100 5900 60 
 F7 "+Vpp" O R 10300 5200 60 
 $EndSheet
@@ -555,7 +554,6 @@ Wire Wire Line
 	4600 3600 5000 3600
 Wire Wire Line
 	8700 1800 8700 5500
-Connection ~ 8700 5500
 Wire Wire Line
 	9100 2700 8200 2700
 Wire Wire Line
@@ -586,8 +584,6 @@ Wire Wire Line
 	5800 4000 6900 4000
 Wire Wire Line
 	5900 4100 6900 4100
-Wire Wire Line
-	5000 5500 9100 5500
 Wire Wire Line
 	4600 2800 6900 2800
 Wire Wire Line
@@ -860,4 +856,6 @@ Connection ~ 8700 3300
 Wire Wire Line
 	8200 4500 8700 4500
 Connection ~ 8700 4500
+Wire Wire Line
+	5000 5500 8700 5500
 $EndSCHEMATC

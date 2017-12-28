@@ -30,9 +30,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3500 2500 2    60   BiDi ~ 0
+Text HLabel 3900 2500 2    60   BiDi ~ 0
 CAN_H
-Text HLabel 3500 2600 2    60   BiDi ~ 0
+Text HLabel 3900 2800 2    60   BiDi ~ 0
 CAN_L
 Text HLabel 4550 5600 2    60   BiDi ~ 0
 RS485+
@@ -58,9 +58,7 @@ F 3 "" H 1900 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 2500 3500 2500
-Wire Wire Line
-	2400 2600 3500 2600
+	2400 2500 3900 2500
 $Comp
 L C C41
 U 1 1 5A3C342C
@@ -270,7 +268,7 @@ U 1 1 5A44DA0F
 P 3950 5450
 F 0 "JP?" H 3950 5530 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 3960 5390 50  0001 C CNN
-F 2 "" H 3950 5450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3950 5450 50  0001 C CNN
 F 3 "" H 3950 5450 50  0001 C CNN
 	1    3950 5450
 	1    0    0    -1  
@@ -281,7 +279,7 @@ U 1 1 5A44DAB5
 P 4250 5450
 F 0 "R?" V 4330 5450 50  0000 C CNN
 F 1 "120" V 4250 5450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 4180 5450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4180 5450 50  0001 C CNN
 F 3 "" H 4250 5450 50  0001 C CNN
 	1    4250 5450
 	0    1    1    0   
@@ -298,4 +296,44 @@ Wire Wire Line
 Wire Wire Line
 	3800 5450 3800 5300
 Connection ~ 3800 5300
+$Comp
+L Jumper_NC_Small JP?
+U 1 1 5A450646
+P 3300 2650
+F 0 "JP?" H 3300 2730 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 3310 2590 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3300 2650 50  0001 C CNN
+F 3 "" H 3300 2650 50  0001 C CNN
+	1    3300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A45064C
+P 3600 2650
+F 0 "R?" V 3680 2650 50  0000 C CNN
+F 1 "120" V 3600 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3530 2650 50  0001 C CNN
+F 3 "" H 3600 2650 50  0001 C CNN
+	1    3600 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2650 3800 2650
+Wire Wire Line
+	3800 2650 3800 2800
+Wire Wire Line
+	3450 2650 3400 2650
+Wire Wire Line
+	2400 2600 3000 2600
+Wire Wire Line
+	3000 2600 3000 2800
+Wire Wire Line
+	3000 2800 3900 2800
+Connection ~ 3800 2800
+Wire Wire Line
+	3200 2650 3100 2650
+Wire Wire Line
+	3100 2650 3100 2500
+Connection ~ 3100 2500
 $EndSCHEMATC

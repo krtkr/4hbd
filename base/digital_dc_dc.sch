@@ -36,8 +36,6 @@ Text HLabel 4400 5100 2    60   Output ~ 0
 +5VEnc
 Text HLabel 4400 4300 2    60   Output ~ 0
 +5VMain
-Text HLabel 4400 5900 2    60   Output ~ 0
-+3.3VAux
 Text HLabel 1200 3500 0    60   UnSpc ~ 0
 GNDD
 $Comp
@@ -399,63 +397,6 @@ F 3 "" H 4100 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C21
-U 1 1 5A398F3C
-P 2500 6150
-F 0 "C21" H 2525 6250 50  0000 L CNN
-F 1 "22uF 10V" H 2525 6050 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 2538 6000 50  0001 C CNN
-F 3 "" H 2500 6150 50  0001 C CNN
-	1    2500 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L AP1117-15 U16
-U 1 1 5A398F42
-P 3100 5900
-F 0 "U16" H 2950 6025 50  0000 C CNN
-F 1 "AMS1117-3.3" H 3100 6025 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 3100 6100 50  0001 C CNN
-F 3 "" H 3200 5650 50  0001 C CNN
-	1    3100 5900
-	1    0    0    -1  
-$EndComp
-Text Label 2100 5900 0    60   ~ 0
-+6.8V
-$Comp
-L GND #PWR024
-U 1 1 5A398F50
-P 2100 6400
-F 0 "#PWR024" H 2100 6150 50  0001 C CNN
-F 1 "GND" H 2100 6250 50  0000 C CNN
-F 2 "" H 2100 6400 50  0001 C CNN
-F 3 "" H 2100 6400 50  0001 C CNN
-	1    2100 6400
-	0    1    1    0   
-$EndComp
-$Comp
-L CP C26
-U 1 1 5A398F57
-P 3500 6150
-F 0 "C26" H 3525 6250 50  0000 L CNN
-F 1 "22uF 6.3V" H 3525 6050 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 3538 6000 50  0001 C CNN
-F 3 "" H 3500 6150 50  0001 C CNN
-	1    3500 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C29
-U 1 1 5A398F62
-P 4100 6150
-F 0 "C29" H 4125 6250 50  0000 L CNN
-F 1 "4.7uF 6.3V" H 4125 6050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4138 6000 50  0001 C CNN
-F 3 "" H 4100 6150 50  0001 C CNN
-	1    4100 6150
-	1    0    0    -1  
-$EndComp
-$Comp
 L CP C34
 U 1 1 5A3A1070
 P 9000 3450
@@ -627,33 +568,6 @@ Connection ~ 4100 5100
 Wire Wire Line
 	4100 5500 4100 5600
 Connection ~ 4100 5600
-Wire Wire Line
-	2500 6300 2500 6400
-Wire Wire Line
-	2100 6400 4400 6400
-Wire Wire Line
-	3100 6400 3100 6200
-Connection ~ 2500 6400
-Wire Wire Line
-	2100 5900 2800 5900
-Wire Wire Line
-	2500 5900 2500 6000
-Connection ~ 2500 5900
-Connection ~ 3100 6400
-Wire Wire Line
-	3400 5900 4400 5900
-Wire Wire Line
-	3500 5900 3500 6000
-Wire Wire Line
-	3500 6300 3500 6400
-Connection ~ 3500 6400
-Connection ~ 3500 5900
-Wire Wire Line
-	4100 6000 4100 5900
-Connection ~ 4100 5900
-Wire Wire Line
-	4100 6300 4100 6400
-Connection ~ 4100 6400
 Wire Wire Line
 	9000 3700 9000 3600
 Wire Wire Line
