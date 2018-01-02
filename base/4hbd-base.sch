@@ -15,6 +15,7 @@ LIBS:ESD_Protection
 LIBS:texas
 LIBS:opto
 LIBS:maxim
+LIBS:Mechanical
 LIBS:4hbd-base-cache
 EELAYER 25 0
 EELAYER END
@@ -1150,6 +1151,17 @@ F 1 "Screw_Terminal_01x02" H 10950 5200 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 10950 5400 50  0001 C CNN
 F 3 "" H 10950 5400 50  0001 C CNN
 	1    10950 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole MK?
+U 1 1 5A4C234B
+P 900 900
+F 0 "MK?" H 900 1100 50  0000 C CNN
+F 1 "Mounting_Hole" H 900 1025 50  0000 C CNN
+F 2 "" H 900 900 50  0001 C CNN
+F 3 "" H 900 900 50  0001 C CNN
+	1    900  900 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
