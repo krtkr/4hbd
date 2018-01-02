@@ -234,17 +234,6 @@ F 3 "" H 8400 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_01x02 J11
-U 1 1 5A1D730D
-P 10950 5400
-F 0 "J11" H 10950 5500 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 10950 5200 50  0000 C CNN
-F 2 "" H 10950 5400 50  0001 C CNN
-F 3 "" H 10950 5400 50  0001 C CNN
-	1    10950 5400
-	1    0    0    -1  
-$EndComp
-$Comp
 L GNDD #PWR06
 U 1 1 5A1D7E7F
 P 10650 5500
@@ -266,17 +255,6 @@ F4 "+5Vpwr" O R 2300 6800 60
 F5 "GNDP" U L 1400 7000 60 
 $EndSheet
 $Comp
-L Conn_01x08 J13
-U 1 1 5A1E2A64
-P 10900 2700
-F 0 "J13" H 10900 3100 50  0000 C CNN
-F 1 "Conn_01x08" H 10900 2200 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 10900 2700 50  0001 C CNN
-F 3 "" H 10900 2700 50  0001 C CNN
-	1    10900 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L GNDD #PWR07
 U 1 1 5A1E3D1F
 P 10600 2500
@@ -296,17 +274,6 @@ F 1 "GNDD" H 10200 1625 50  0000 C CNN
 F 2 "" H 10200 1750 50  0001 C CNN
 F 3 "" H 10200 1750 50  0001 C CNN
 	1    10200 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x03 J12
-U 1 1 5A1EF510
-P 10900 1200
-F 0 "J12" H 10900 1400 50  0000 C CNN
-F 1 "Conn_01x03" H 10900 1000 50  0000 C CNN
-F 2 "" H 10900 1200 50  0001 C CNN
-F 3 "" H 10900 1200 50  0001 C CNN
-	1    10900 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -341,116 +308,6 @@ F 2 "" H 2800 3550 50  0001 C CNN
 F 3 "" H 2800 3550 50  0001 C CNN
 	1    2800 3600
 	1    0    0    -1  
-$EndComp
-$Comp
-L Screw_Terminal_01x03 J9
-U 1 1 5A1F5775
-P 700 6700
-F 0 "J9" H 700 6900 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 700 6500 50  0000 C CNN
-F 2 "" H 700 6700 50  0001 C CNN
-F 3 "" H 700 6700 50  0001 C CNN
-	1    700  6700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Screw_Terminal_01x04 J10
-U 1 1 5A1F75AA
-P 2400 1900
-F 0 "J10" H 2400 2100 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 2400 1600 50  0000 C CNN
-F 2 "" H 2400 1900 50  0001 C CNN
-F 3 "" H 2400 1900 50  0001 C CNN
-	1    2400 1900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Screw_Terminal_01x03 J1
-U 1 1 5A1F8DA5
-P 700 3400
-F 0 "J1" H 700 3600 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 700 3200 50  0000 C CNN
-F 2 "" H 700 3400 50  0001 C CNN
-F 3 "" H 700 3400 50  0001 C CNN
-	1    700  3400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Screw_Terminal_01x03 J2
-U 1 1 5A1F90C1
-P 700 3800
-F 0 "J2" H 700 4000 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 700 3600 50  0000 C CNN
-F 2 "" H 700 3800 50  0001 C CNN
-F 3 "" H 700 3800 50  0001 C CNN
-	1    700  3800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Screw_Terminal_01x03 J3
-U 1 1 5A1F93B8
-P 700 4200
-F 0 "J3" H 700 4400 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 700 4000 50  0000 C CNN
-F 2 "" H 700 4200 50  0001 C CNN
-F 3 "" H 700 4200 50  0001 C CNN
-	1    700  4200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Screw_Terminal_01x03 J4
-U 1 1 5A1F96AE
-P 700 4600
-F 0 "J4" H 700 4800 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 700 4400 50  0000 C CNN
-F 2 "" H 700 4600 50  0001 C CNN
-F 3 "" H 700 4600 50  0001 C CNN
-	1    700  4600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Screw_Terminal_01x03 J8
-U 1 1 5A1F99A1
-P 4300 6700
-F 0 "J8" H 4300 6900 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 4300 6500 50  0000 C CNN
-F 2 "" H 4300 6700 50  0001 C CNN
-F 3 "" H 4300 6700 50  0001 C CNN
-	1    4300 6700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Screw_Terminal_01x03 J7
-U 1 1 5A1F9CC3
-P 4300 6300
-F 0 "J7" H 4300 6500 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 4300 6100 50  0000 C CNN
-F 2 "" H 4300 6300 50  0001 C CNN
-F 3 "" H 4300 6300 50  0001 C CNN
-	1    4300 6300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Screw_Terminal_01x02 J5
-U 1 1 5A1FA292
-P 700 5000
-F 0 "J5" H 700 5100 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 700 4800 50  0000 C CNN
-F 2 "" H 700 5000 50  0001 C CNN
-F 3 "" H 700 5000 50  0001 C CNN
-	1    700  5000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Screw_Terminal_01x02 J6
-U 1 1 5A1FAA40
-P 700 5300
-F 0 "J6" H 700 5400 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 700 5100 50  0000 C CNN
-F 2 "" H 700 5300 50  0001 C CNN
-F 3 "" H 700 5300 50  0001 C CNN
-	1    700  5300
-	-1   0    0    1   
 $EndComp
 $Sheet
 S 4800 6000 1200 1400
@@ -513,7 +370,11 @@ Wire Wire Line
 Wire Wire Line
 	4800 3700 4800 3800
 Wire Wire Line
-	5100 5300 9100 5300
+	5100 5300 6600 5300
+Wire Wire Line
+	6600 5300 8600 5300
+Wire Wire Line
+	8600 5300 9100 5300
 Wire Wire Line
 	8600 5300 8600 4600
 Wire Wire Line
@@ -549,7 +410,11 @@ Wire Wire Line
 Wire Wire Line
 	4600 3600 5000 3600
 Wire Wire Line
-	8700 5500 8700 1800
+	8700 5500 8700 4500
+Wire Wire Line
+	8700 4500 8700 3300
+Wire Wire Line
+	8700 3300 8700 1800
 Wire Wire Line
 	9100 2700 8200 2700
 Wire Wire Line
@@ -585,21 +450,37 @@ Wire Wire Line
 Wire Wire Line
 	4600 2500 6900 2500
 Wire Wire Line
-	4600 2300 6900 2300
+	4600 2300 6750 2300
 Wire Wire Line
-	6900 2200 4600 2200
+	6750 2300 6900 2300
 Wire Wire Line
-	4600 2100 6900 2100
+	6900 2200 6550 2200
 Wire Wire Line
-	6900 2000 4600 2000
+	6550 2200 4600 2200
 Wire Wire Line
-	4600 1900 6900 1900
+	4600 2100 6350 2100
 Wire Wire Line
-	6900 1800 4600 1800
+	6350 2100 6900 2100
 Wire Wire Line
-	4600 1700 6900 1700
+	6900 2000 6150 2000
 Wire Wire Line
-	6900 1600 4600 1600
+	6150 2000 4600 2000
+Wire Wire Line
+	4600 1900 5950 1900
+Wire Wire Line
+	5950 1900 6900 1900
+Wire Wire Line
+	6900 1800 5750 1800
+Wire Wire Line
+	5750 1800 4600 1800
+Wire Wire Line
+	4600 1700 5550 1700
+Wire Wire Line
+	5550 1700 6900 1700
+Wire Wire Line
+	6900 1600 5350 1600
+Wire Wire Line
+	5350 1600 4600 1600
 Wire Wire Line
 	10000 3100 10700 3100
 Wire Wire Line
@@ -653,7 +534,9 @@ Wire Wire Line
 Wire Wire Line
 	2800 5500 2800 5600
 Wire Wire Line
-	1200 7000 1400 7000
+	1200 7000 1300 7000
+Wire Wire Line
+	1300 7000 1400 7000
 Wire Wire Line
 	2600 6800 2300 6800
 Wire Wire Line
@@ -663,13 +546,17 @@ Wire Wire Line
 Wire Wire Line
 	2500 6700 2300 6700
 Wire Wire Line
-	2500 3300 2500 6700
+	2500 3300 2500 5400
+Wire Wire Line
+	2500 5400 2500 6700
 Wire Wire Line
 	2500 3300 3000 3300
 Wire Wire Line
 	1300 6800 900  6800
 Wire Wire Line
-	900  6700 1400 6700
+	900  6700 1200 6700
+Wire Wire Line
+	1200 6700 1400 6700
 Wire Wire Line
 	900  6600 1100 6600
 Wire Wire Line
@@ -687,11 +574,29 @@ Wire Wire Line
 Wire Wire Line
 	1200 7000 1200 7100
 Wire Wire Line
-	1300 3500 1300 7000
+	1300 3500 1300 3900
+Wire Wire Line
+	1300 3900 1300 4300
+Wire Wire Line
+	1300 4300 1300 4700
+Wire Wire Line
+	1300 4700 1300 6800
+Wire Wire Line
+	1300 6800 1300 7000
 Connection ~ 1300 7000
 Connection ~ 1300 6800
 Wire Wire Line
-	1200 3300 1200 6700
+	1200 3300 1200 3700
+Wire Wire Line
+	1200 3700 1200 4100
+Wire Wire Line
+	1200 4100 1200 4500
+Wire Wire Line
+	1200 4500 1200 4900
+Wire Wire Line
+	1200 4900 1200 5200
+Wire Wire Line
+	1200 5200 1200 6700
 Wire Wire Line
 	1200 5200 900  5200
 Connection ~ 1200 6700
@@ -822,7 +727,9 @@ Wire Wire Line
 Wire Wire Line
 	4500 6400 4600 6400
 Wire Wire Line
-	4600 6400 4600 7000
+	4600 6400 4600 6800
+Wire Wire Line
+	4600 6800 4600 7000
 Wire Wire Line
 	4500 6800 4600 6800
 Connection ~ 4600 6800
@@ -831,9 +738,13 @@ Wire Wire Line
 Wire Wire Line
 	10400 1500 10400 5200
 Wire Wire Line
-	4600 1300 6900 1300
+	4600 1300 4800 1300
 Wire Wire Line
-	4600 1400 6900 1400
+	4800 1300 6900 1300
+Wire Wire Line
+	4600 1400 5100 1400
+Wire Wire Line
+	5100 1400 6900 1400
 Wire Wire Line
 	8200 1600 8800 1600
 Wire Wire Line
@@ -849,7 +760,9 @@ Wire Wire Line
 	8200 4500 8700 4500
 Connection ~ 8700 4500
 Wire Wire Line
-	5000 5500 8700 5500
+	5000 5500 6700 5500
+Wire Wire Line
+	6700 5500 8700 5500
 $Comp
 L Test_Point TP?
 U 1 1 5A46A9D0
@@ -957,7 +870,7 @@ Wire Wire Line
 	5750 1100 5750 1800
 Connection ~ 5750 1800
 Wire Wire Line
-	5550 900  5550 1700
+	5550 950  5550 1700
 Connection ~ 5550 1700
 Wire Wire Line
 	5350 1100 5350 1600
@@ -1059,9 +972,17 @@ $EndComp
 Wire Wire Line
 	8450 6250 8450 6150
 Wire Wire Line
-	7450 6250 8450 6250
+	7450 6250 7700 6250
 Wire Wire Line
-	7950 6150 7950 6350
+	7700 6250 7950 6250
+Wire Wire Line
+	7950 6250 8200 6250
+Wire Wire Line
+	8200 6250 8450 6250
+Wire Wire Line
+	7950 6150 7950 6250
+Wire Wire Line
+	7950 6250 7950 6350
 Wire Wire Line
 	7450 6150 7450 6250
 Connection ~ 7950 6250
@@ -1129,9 +1050,17 @@ $EndComp
 Wire Wire Line
 	3600 7400 3600 7300
 Wire Wire Line
-	2600 7400 3600 7400
+	2600 7400 2850 7400
 Wire Wire Line
-	3100 7300 3100 7500
+	2850 7400 3100 7400
+Wire Wire Line
+	3100 7400 3350 7400
+Wire Wire Line
+	3350 7400 3600 7400
+Wire Wire Line
+	3100 7300 3100 7400
+Wire Wire Line
+	3100 7400 3100 7500
 Wire Wire Line
 	2600 7300 2600 7400
 Connection ~ 3100 7400
@@ -1150,6 +1079,149 @@ F 1 "GNDPWR" H 3100 7370 50  0000 C CNN
 F 2 "" H 3100 7450 50  0001 C CNN
 F 3 "" H 3100 7450 50  0001 C CNN
 	1    3100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Spring_Terminal_Connector_01x03 J?
+U 1 1 5A4BB9A5
+P 700 3400
+F 0 "J?" H 700 3600 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x03" H 700 3200 50  0000 C CNN
+F 2 "TerminalBlock:SpringTerminalBlock_KF141R_3_P2.54mm" H 700 3400 50  0001 C CNN
+F 3 "" H 700 3400 50  0001 C CNN
+	1    700  3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Spring_Terminal_Connector_01x03 J?
+U 1 1 5A4C2999
+P 700 3800
+F 0 "J?" H 700 4000 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x03" H 700 3600 50  0000 C CNN
+F 2 "TerminalBlock:SpringTerminalBlock_KF141R_3_P2.54mm" H 700 3800 50  0001 C CNN
+F 3 "" H 700 3800 50  0001 C CNN
+	1    700  3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Spring_Terminal_Connector_01x03 J?
+U 1 1 5A4C3073
+P 700 4200
+F 0 "J?" H 700 4400 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x03" H 700 4000 50  0000 C CNN
+F 2 "TerminalBlock:SpringTerminalBlock_KF141R_3_P2.54mm" H 700 4200 50  0001 C CNN
+F 3 "" H 700 4200 50  0001 C CNN
+	1    700  4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Spring_Terminal_Connector_01x03 J?
+U 1 1 5A4C33E9
+P 700 4600
+F 0 "J?" H 700 4800 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x03" H 700 4400 50  0000 C CNN
+F 2 "TerminalBlock:SpringTerminalBlock_KF141R_3_P2.54mm" H 700 4600 50  0001 C CNN
+F 3 "" H 700 4600 50  0001 C CNN
+	1    700  4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Spring_Terminal_Connector_01x03 J?
+U 1 1 5A4C4268
+P 4300 6300
+F 0 "J?" H 4300 6500 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x03" H 4300 6100 50  0000 C CNN
+F 2 "TerminalBlock:SpringTerminalBlock_KF141R_3_P2.54mm" H 4300 6300 50  0001 C CNN
+F 3 "" H 4300 6300 50  0001 C CNN
+	1    4300 6300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Spring_Terminal_Connector_01x03 J?
+U 1 1 5A4C47B3
+P 4300 6700
+F 0 "J?" H 4300 6900 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x03" H 4300 6500 50  0000 C CNN
+F 2 "TerminalBlock:SpringTerminalBlock_KF141R_3_P2.54mm" H 4300 6700 50  0001 C CNN
+F 3 "" H 4300 6700 50  0001 C CNN
+	1    4300 6700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Spring_Terminal_Connector_01x03 J?
+U 1 1 5A4E0432
+P 10900 1200
+F 0 "J?" H 10900 1400 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x03" H 10900 1000 50  0000 C CNN
+F 2 "TerminalBlock:SpringTerminalBlock_KF141R_3_P2.54mm" H 10900 1200 50  0001 C CNN
+F 3 "" H 10900 1200 50  0001 C CNN
+	1    10900 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Spring_Terminal_Connector_01x04 J?
+U 1 1 5A4C5A2B
+P 2400 1800
+F 0 "J?" H 2400 2000 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x04" H 2450 1500 50  0000 C CNN
+F 2 "" H 2400 1800 50  0001 C CNN
+F 3 "" H 2400 1800 50  0001 C CNN
+	1    2400 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Spring_Terminal_Connector_01x08 J?
+U 1 1 5A4CBF24
+P 10900 2500
+F 0 "J?" H 10900 2700 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x08" H 10950 1750 50  0000 C CNN
+F 2 "TerminalBlock:SpringTerminalBlock_KF141R_8_P2.54mm" H 10900 2500 50  0001 C CNN
+F 3 "" H 10900 2500 50  0001 C CNN
+	1    10900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Spring_Terminal_Connector_01x02 J?
+U 1 1 5A4CE7FB
+P 700 5000
+F 0 "J?" H 700 5200 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x02" H 750 4900 50  0000 C CNN
+F 2 "TerminalBlock:SpringTerminalBlock_KF141R_2_P2.54mm" H 700 5000 50  0001 C CNN
+F 3 "" H 700 5000 50  0001 C CNN
+	1    700  5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Spring_Terminal_Connector_01x02 J?
+U 1 1 5A4CFB02
+P 700 5300
+F 0 "J?" H 700 5500 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x02" H 750 5200 50  0000 C CNN
+F 2 "TerminalBlock:SpringTerminalBlock_KF141R_2_P2.54mm" H 700 5300 50  0001 C CNN
+F 3 "" H 700 5300 50  0001 C CNN
+	1    700  5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_01x03 J?
+U 1 1 5A4C3305
+P 700 6700
+F 0 "J?" H 700 6900 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 700 6500 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 700 6700 50  0001 C CNN
+F 3 "" H 700 6700 50  0001 C CNN
+	1    700  6700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_01x02 J?
+U 1 1 5A4C5EB8
+P 10950 5400
+F 0 "J?" H 10950 5500 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 10950 5200 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 10950 5400 50  0001 C CNN
+F 3 "" H 10950 5400 50  0001 C CNN
+	1    10950 5400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
