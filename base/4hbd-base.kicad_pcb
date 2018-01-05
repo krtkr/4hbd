@@ -5927,7 +5927,7 @@
   )
 
   (module TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm placed (layer F.Cu) (tedit 59FF0306) (tstamp 5A4C1C1F)
-    (at 241.818573 135.569999)
+    (at 65 106.5)
     (descr "Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf")
     (tags "Altech AK300 terminal block pitch 5.0mm")
     (path /5A4C3305)
@@ -8338,7 +8338,7 @@
   )
 
   (module TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm placed (layer F.Cu) (tedit 59FF0306) (tstamp 5A4FCF61)
-    (at 219.490002 135.619999)
+    (at 42.5 107)
     (descr "Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf")
     (tags "Altech AK300 terminal block pitch 5.0mm")
     (path /5A4F1133)
@@ -8512,7 +8512,7 @@
   )
 
   (module TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm (layer F.Cu) (tedit 59FF0306) (tstamp 5A4FCF68)
-    (at 222.358573 152.159999)
+    (at 82 106.5)
     (descr "Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf")
     (tags "Altech AK300 terminal block pitch 5.0mm")
     (path /5A4C5EB8)
@@ -9070,7 +9070,7 @@
   )
 
   (module TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm (layer F.Cu) (tedit 5A4FC18C) (tstamp 5A51818E)
-    (at 152.954357 136.929999)
+    (at 59.5 121)
     (descr "KaiFeng screwless terminal block, see http://www.nb-kaifeng.com/upload/file/1491789826.pdf")
     (tags "KF141R spring terminal block pitch 2.54mm")
     (path /5A4BB9A5)
@@ -9123,7 +9123,7 @@
   )
 
   (module TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm (layer F.Cu) (tedit 5A4FC18C) (tstamp 5A5181AC)
-    (at 180.204357 117.049999)
+    (at 102.5 120.5)
     (descr "KaiFeng screwless terminal block, see http://www.nb-kaifeng.com/upload/file/1491789826.pdf")
     (tags "KF141R spring terminal block pitch 2.54mm")
     (path /5A4C2999)
@@ -9176,7 +9176,7 @@
   )
 
   (module TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm (layer F.Cu) (tedit 5A4FC18C) (tstamp 5A5181CA)
-    (at 152.954357 155.969999)
+    (at 44 121)
     (descr "KaiFeng screwless terminal block, see http://www.nb-kaifeng.com/upload/file/1491789826.pdf")
     (tags "KF141R spring terminal block pitch 2.54mm")
     (path /5A4C3073)
@@ -9229,7 +9229,7 @@
   )
 
   (module TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm (layer F.Cu) (tedit 5A4FC18C) (tstamp 5A5181E8)
-    (at 179.074357 136.929999)
+    (at 116 120.5)
     (descr "KaiFeng screwless terminal block, see http://www.nb-kaifeng.com/upload/file/1491789826.pdf")
     (tags "KF141R spring terminal block pitch 2.54mm")
     (path /5A4C33E9)
@@ -9282,7 +9282,7 @@
   )
 
   (module TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-2_1x02_P2.54mm (layer F.Cu) (tedit 5A4FCEF6) (tstamp 5A518206)
-    (at 206.324357 117.049999)
+    (at 32.5 121)
     (descr "KaiFeng screwless terminal block, see http://www.nb-kaifeng.com/upload/file/1491789826.pdf")
     (tags "KF141R spring terminal block pitch 2.54mm")
     (path /5A4CE7FB)
@@ -9329,7 +9329,7 @@
   )
 
   (module TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-2_1x02_P2.54mm (layer F.Cu) (tedit 5A4FCEF6) (tstamp 5A518220)
-    (at 179.074357 155.969999)
+    (at 19.5 103.5)
     (descr "KaiFeng screwless terminal block, see http://www.nb-kaifeng.com/upload/file/1491789826.pdf")
     (tags "KF141R spring terminal block pitch 2.54mm")
     (path /5A4CFB02)
@@ -9376,7 +9376,7 @@
   )
 
   (module TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm (layer F.Cu) (tedit 5A4FC18C) (tstamp 5A51823A)
-    (at 205.194357 136.089999)
+    (at 20 121)
     (descr "KaiFeng screwless terminal block, see http://www.nb-kaifeng.com/upload/file/1491789826.pdf")
     (tags "KF141R spring terminal block pitch 2.54mm")
     (path /5A4C4268)
@@ -9429,7 +9429,7 @@
   )
 
   (module TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm (layer F.Cu) (tedit 5A4FC18C) (tstamp 5A518258)
-    (at 232.444357 117.049999)
+    (at 29 103.5)
     (descr "KaiFeng screwless terminal block, see http://www.nb-kaifeng.com/upload/file/1491789826.pdf")
     (tags "KF141R spring terminal block pitch 2.54mm")
     (path /5A4C47B3)
@@ -9535,7 +9535,7 @@
   )
 
   (module TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-8_1x08_P2.54mm (layer F.Cu) (tedit 5A4C0883) (tstamp 5A518294)
-    (at 151.135717 117.049999)
+    (at 75 121)
     (descr "KaiFeng screwless terminal block, see http://www.nb-kaifeng.com/upload/file/1491789826.pdf")
     (tags "KF141R spring terminal block pitch 2.54mm")
     (path /5A4CBF24)
