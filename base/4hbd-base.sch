@@ -1016,7 +1016,7 @@ U 1 1 5A4BB9A5
 P 700 3400
 F 0 "J1" H 700 3600 50  0000 C CNN
 F 1 "Spring_Terminal_Connector_01x03" H 700 3200 50  0000 C CNN
-F 2 "TerminalBlock:SpringTerminalBlock_KF141R_3_P2.54mm" H 700 3400 50  0001 C CNN
+F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm" H 700 3400 50  0001 C CNN
 F 3 "" H 700 3400 50  0001 C CNN
 	1    700  3400
 	-1   0    0    -1  
@@ -1027,7 +1027,7 @@ U 1 1 5A4C2999
 P 700 3800
 F 0 "J2" H 700 4000 50  0000 C CNN
 F 1 "Spring_Terminal_Connector_01x03" H 700 3600 50  0000 C CNN
-F 2 "TerminalBlock:SpringTerminalBlock_KF141R_3_P2.54mm" H 700 3800 50  0001 C CNN
+F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm" H 700 3800 50  0001 C CNN
 F 3 "" H 700 3800 50  0001 C CNN
 	1    700  3800
 	-1   0    0    -1  
@@ -1038,7 +1038,7 @@ U 1 1 5A4C3073
 P 700 4200
 F 0 "J3" H 700 4400 50  0000 C CNN
 F 1 "Spring_Terminal_Connector_01x03" H 700 4000 50  0000 C CNN
-F 2 "TerminalBlock:SpringTerminalBlock_KF141R_3_P2.54mm" H 700 4200 50  0001 C CNN
+F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm" H 700 4200 50  0001 C CNN
 F 3 "" H 700 4200 50  0001 C CNN
 	1    700  4200
 	-1   0    0    -1  
@@ -1049,7 +1049,7 @@ U 1 1 5A4C33E9
 P 700 4600
 F 0 "J4" H 700 4800 50  0000 C CNN
 F 1 "Spring_Terminal_Connector_01x03" H 700 4400 50  0000 C CNN
-F 2 "TerminalBlock:SpringTerminalBlock_KF141R_3_P2.54mm" H 700 4600 50  0001 C CNN
+F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm" H 700 4600 50  0001 C CNN
 F 3 "" H 700 4600 50  0001 C CNN
 	1    700  4600
 	-1   0    0    -1  
@@ -1060,7 +1060,7 @@ U 1 1 5A4C4268
 P 4300 6300
 F 0 "J9" H 4300 6500 50  0000 C CNN
 F 1 "Spring_Terminal_Connector_01x03" H 4300 6100 50  0000 C CNN
-F 2 "TerminalBlock:SpringTerminalBlock_KF141R_3_P2.54mm" H 4300 6300 50  0001 C CNN
+F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm" H 4300 6300 50  0001 C CNN
 F 3 "" H 4300 6300 50  0001 C CNN
 	1    4300 6300
 	-1   0    0    -1  
@@ -1071,7 +1071,7 @@ U 1 1 5A4C47B3
 P 4300 6700
 F 0 "J10" H 4300 6900 50  0000 C CNN
 F 1 "Spring_Terminal_Connector_01x03" H 4300 6500 50  0000 C CNN
-F 2 "TerminalBlock:SpringTerminalBlock_KF141R_3_P2.54mm" H 4300 6700 50  0001 C CNN
+F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm" H 4300 6700 50  0001 C CNN
 F 3 "" H 4300 6700 50  0001 C CNN
 	1    4300 6700
 	-1   0    0    -1  
@@ -1082,7 +1082,7 @@ U 1 1 5A4E0432
 P 10900 1200
 F 0 "J11" H 10900 1400 50  0000 C CNN
 F 1 "Spring_Terminal_Connector_01x03" H 10900 1000 50  0000 C CNN
-F 2 "TerminalBlock:SpringTerminalBlock_KF141R_3_P2.54mm" H 10900 1200 50  0001 C CNN
+F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm" H 10900 1200 50  0001 C CNN
 F 3 "" H 10900 1200 50  0001 C CNN
 	1    10900 1200
 	1    0    0    -1  
@@ -1093,7 +1093,7 @@ U 1 1 5A4CBF24
 P 10900 2500
 F 0 "J12" H 10900 2700 50  0000 C CNN
 F 1 "Spring_Terminal_Connector_01x08" H 10950 1750 50  0000 C CNN
-F 2 "TerminalBlock:SpringTerminalBlock_KF141R_8_P2.54mm" H 10900 2500 50  0001 C CNN
+F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-8_1x08_P2.54mm" H 10900 2500 50  0001 C CNN
 F 3 "" H 10900 2500 50  0001 C CNN
 	1    10900 2500
 	1    0    0    -1  
@@ -1104,7 +1104,7 @@ U 1 1 5A4CE7FB
 P 700 5000
 F 0 "J5" H 700 5200 50  0000 C CNN
 F 1 "Spring_Terminal_Connector_01x02" H 750 4900 50  0000 C CNN
-F 2 "TerminalBlock:SpringTerminalBlock_KF141R_2_P2.54mm" H 700 5000 50  0001 C CNN
+F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-2_1x02_P2.54mm" H 700 5000 50  0001 C CNN
 F 3 "" H 700 5000 50  0001 C CNN
 	1    700  5000
 	-1   0    0    -1  
@@ -1115,7 +1115,7 @@ U 1 1 5A4CFB02
 P 700 5300
 F 0 "J6" H 700 5500 50  0000 C CNN
 F 1 "Spring_Terminal_Connector_01x02" H 750 5200 50  0000 C CNN
-F 2 "TerminalBlock:SpringTerminalBlock_KF141R_2_P2.54mm" H 700 5300 50  0001 C CNN
+F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-2_1x02_P2.54mm" H 700 5300 50  0001 C CNN
 F 3 "" H 700 5300 50  0001 C CNN
 	1    700  5300
 	-1   0    0    -1  

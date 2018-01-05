@@ -17,4 +17,5 @@
   (lib (name Resistor_SMD)(type KiCad)(uri ${KIPRJMOD}/../kicad-footprints/Resistor_SMD.pretty)(options "")(descr ""))
   (lib (name TerminalBlock)(type KiCad)(uri ${KIPRJMOD}/../kicad-footprints/TerminalBlock.pretty)(options "")(descr ""))
   (lib (name TestPoint)(type KiCad)(uri ${KIPRJMOD}/../kicad-footprints/TestPoint.pretty)(options "")(descr ""))
+  (lib (name TerminalBlock_KaiFeng)(type KiCad)(uri ${KIPRJMOD}/../kicad-footprints/TerminalBlock_KaiFeng.pretty)(options "")(descr ""))
 )
