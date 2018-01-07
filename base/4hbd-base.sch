@@ -1015,7 +1015,7 @@ L Spring_Terminal_Connector_01x03 J1
 U 1 1 5A4BB9A5
 P 700 3400
 F 0 "J1" H 700 3600 50  0000 C CNN
-F 1 "Spring_Terminal_Connector_01x03" H 700 3200 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x03" H 1500 3200 50  0000 C CNN
 F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm" H 700 3400 50  0001 C CNN
 F 3 "" H 700 3400 50  0001 C CNN
 	1    700  3400
@@ -1026,7 +1026,7 @@ L Spring_Terminal_Connector_01x03 J2
 U 1 1 5A4C2999
 P 700 3800
 F 0 "J2" H 700 4000 50  0000 C CNN
-F 1 "Spring_Terminal_Connector_01x03" H 700 3600 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x03" H 1500 3600 50  0000 C CNN
 F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm" H 700 3800 50  0001 C CNN
 F 3 "" H 700 3800 50  0001 C CNN
 	1    700  3800
@@ -1037,7 +1037,7 @@ L Spring_Terminal_Connector_01x03 J3
 U 1 1 5A4C3073
 P 700 4200
 F 0 "J3" H 700 4400 50  0000 C CNN
-F 1 "Spring_Terminal_Connector_01x03" H 700 4000 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x03" H 1500 4000 50  0000 C CNN
 F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm" H 700 4200 50  0001 C CNN
 F 3 "" H 700 4200 50  0001 C CNN
 	1    700  4200
@@ -1048,7 +1048,7 @@ L Spring_Terminal_Connector_01x03 J4
 U 1 1 5A4C33E9
 P 700 4600
 F 0 "J4" H 700 4800 50  0000 C CNN
-F 1 "Spring_Terminal_Connector_01x03" H 700 4400 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x03" H 1500 4400 50  0000 C CNN
 F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm" H 700 4600 50  0001 C CNN
 F 3 "" H 700 4600 50  0001 C CNN
 	1    700  4600
@@ -1059,7 +1059,7 @@ L Spring_Terminal_Connector_01x03 J9
 U 1 1 5A4C4268
 P 4300 6300
 F 0 "J9" H 4300 6500 50  0000 C CNN
-F 1 "Spring_Terminal_Connector_01x03" H 4300 6100 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x03" H 5050 6100 50  0000 C CNN
 F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm" H 4300 6300 50  0001 C CNN
 F 3 "" H 4300 6300 50  0001 C CNN
 	1    4300 6300
@@ -1070,7 +1070,7 @@ L Spring_Terminal_Connector_01x03 J10
 U 1 1 5A4C47B3
 P 4300 6700
 F 0 "J10" H 4300 6900 50  0000 C CNN
-F 1 "Spring_Terminal_Connector_01x03" H 4300 6500 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x03" H 4750 6500 50  0000 C CNN
 F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-3_1x03_P2.54mm" H 4300 6700 50  0001 C CNN
 F 3 "" H 4300 6700 50  0001 C CNN
 	1    4300 6700
@@ -1103,7 +1103,7 @@ L Spring_Terminal_Connector_01x02 J5
 U 1 1 5A4CE7FB
 P 700 5000
 F 0 "J5" H 700 5200 50  0000 C CNN
-F 1 "Spring_Terminal_Connector_01x02" H 750 4900 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x02" H 1500 4900 50  0000 C CNN
 F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-2_1x02_P2.54mm" H 700 5000 50  0001 C CNN
 F 3 "" H 700 5000 50  0001 C CNN
 	1    700  5000
@@ -1114,7 +1114,7 @@ L Spring_Terminal_Connector_01x02 J6
 U 1 1 5A4CFB02
 P 700 5300
 F 0 "J6" H 700 5500 50  0000 C CNN
-F 1 "Spring_Terminal_Connector_01x02" H 750 5200 50  0000 C CNN
+F 1 "Spring_Terminal_Connector_01x02" H 1500 5200 50  0000 C CNN
 F 2 "TerminalBlock_KaiFeng:TerminalBlock_KaiFeng_KF141R-2_1x02_P2.54mm" H 700 5300 50  0001 C CNN
 F 3 "" H 700 5300 50  0001 C CNN
 	1    700  5300
