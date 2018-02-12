@@ -237,12 +237,12 @@ $EndComp
 $Comp
 L GNDD #PWR06
 U 1 1 5A1D7E7F
-P 10650 5500
-F 0 "#PWR06" H 10650 5250 50  0001 C CNN
-F 1 "GNDD" H 10650 5375 50  0000 C CNN
-F 2 "" H 10650 5500 50  0001 C CNN
-F 3 "" H 10650 5500 50  0001 C CNN
-	1    10650 5500
+P 10700 5150
+F 0 "#PWR06" H 10700 4900 50  0001 C CNN
+F 1 "GNDD" H 10700 5025 50  0000 C CNN
+F 2 "" H 10700 5150 50  0001 C CNN
+F 3 "" H 10700 5150 50  0001 C CNN
+	1    10700 5150
 	0    1    1    0   
 $EndComp
 $Sheet
@@ -415,10 +415,6 @@ Wire Wire Line
 Wire Wire Line
 	9100 2900 8200 2900
 Wire Wire Line
-	10300 5400 10750 5400
-Wire Wire Line
-	10750 5500 10650 5500
-Wire Wire Line
 	4600 3300 6900 3300
 Wire Wire Line
 	4600 3100 6900 3100
@@ -511,7 +507,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 5500 2800 5600
 Wire Wire Line
-	1200 7000 1400 7000
+	950  7000 1400 7000
 Wire Wire Line
 	2600 6800 2300 6800
 Wire Wire Line
@@ -525,13 +521,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 3300 3000 3300
 Wire Wire Line
-	1300 6800 900  6800
-Wire Wire Line
-	900  6700 1400 6700
-Wire Wire Line
-	900  6600 1100 6600
-Wire Wire Line
-	1100 6600 1100 3200
+	1100 3200 1100 6500
 Wire Wire Line
 	1100 3200 3000 3200
 Wire Wire Line
@@ -543,11 +533,8 @@ Wire Wire Line
 Wire Wire Line
 	2600 2000 3000 2000
 Wire Wire Line
-	1200 7000 1200 7100
-Wire Wire Line
-	1300 3500 1300 7000
+	1300 3500 1300 7100
 Connection ~ 1300 7000
-Connection ~ 1300 6800
 Wire Wire Line
 	1200 3300 1200 6700
 Wire Wire Line
@@ -1134,12 +1121,12 @@ $EndComp
 $Comp
 L Screw_Terminal_01x02 J13
 U 1 1 5A4C5EB8
-P 10950 5400
-F 0 "J13" H 10950 5500 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 10950 5200 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 10950 5400 50  0001 C CNN
-F 3 "" H 10950 5400 50  0001 C CNN
-	1    10950 5400
+P 10950 5300
+F 0 "J13" H 10950 5400 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 10950 5100 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 10950 5300 50  0001 C CNN
+F 3 "" H 10950 5300 50  0001 C CNN
+	1    10950 5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1148,7 +1135,7 @@ U 1 1 5A4C234B
 P 850 950
 F 0 "MK1" H 850 1150 50  0000 C CNN
 F 1 "Mounting_Hole" H 850 1075 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad" H 850 950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 850 950 50  0001 C CNN
 F 3 "" H 850 950 50  0001 C CNN
 	1    850  950 
 	1    0    0    -1  
@@ -1170,7 +1157,7 @@ U 1 1 5A4F295C
 P 850 1350
 F 0 "MK2" H 850 1550 50  0000 C CNN
 F 1 "Mounting_Hole" H 850 1475 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad" H 850 1350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 850 1350 50  0001 C CNN
 F 3 "" H 850 1350 50  0001 C CNN
 	1    850  1350
 	1    0    0    -1  
@@ -1181,7 +1168,7 @@ U 1 1 5A4F2CD9
 P 850 1750
 F 0 "MK3" H 850 1950 50  0000 C CNN
 F 1 "Mounting_Hole" H 850 1875 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad" H 850 1750 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 850 1750 50  0001 C CNN
 F 3 "" H 850 1750 50  0001 C CNN
 	1    850  1750
 	1    0    0    -1  
@@ -1192,9 +1179,34 @@ U 1 1 5A4F3055
 P 850 2150
 F 0 "MK4" H 850 2350 50  0000 C CNN
 F 1 "Mounting_Hole" H 850 2275 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad" H 850 2150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 850 2150 50  0001 C CNN
 F 3 "" H 850 2150 50  0001 C CNN
 	1    850  2150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1100 6700 1400 6700
+Connection ~ 1200 6600
+Wire Wire Line
+	900  6800 1100 6800
+Wire Wire Line
+	1100 6800 1100 6700
+Wire Wire Line
+	900  6600 950  6600
+Wire Wire Line
+	950  6600 950  7000
+Wire Wire Line
+	1300 7100 1200 7100
+Wire Wire Line
+	900  6700 1050 6700
+Wire Wire Line
+	1050 6700 1050 6500
+Wire Wire Line
+	1050 6500 1100 6500
+Wire Wire Line
+	10300 5400 10750 5400
+Wire Wire Line
+	10750 5300 10750 5150
+Wire Wire Line
+	10750 5150 10700 5150
 $EndSCHEMATC
