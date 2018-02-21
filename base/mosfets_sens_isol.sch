@@ -36,9 +36,9 @@ HB0s
 Text HLabel 10750 700  2    60   Output ~ 0
 HB1
 Text HLabel 10750 800  2    60   Output ~ 0
-HB2s
+HB2
 Text HLabel 10750 900  2    60   Output ~ 0
-HB3
+HB3s
 Text HLabel 1150 3000 0    60   Input ~ 0
 PWM0p
 Text HLabel 1150 3100 0    60   Input ~ 0
@@ -103,17 +103,6 @@ F 3 "" H 5950 2150 50  0001 C CNN
 $EndComp
 Text Label 1350 700  0    60   ~ 0
 Vpwr
-$Comp
-L IR2181 U3
-U 1 1 5A1E086C
-P 4800 1850
-F 0 "U3" H 4850 2300 50  0000 L CNN
-F 1 "IR2181" H 4850 1400 50  0000 L CNN
-F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 4800 1850 50  0001 C CIN
-F 3 "" H 4800 1850 50  0001 C CNN
-	1    4800 1850
-	1    0    0    -1  
-$EndComp
 $Comp
 L R R9
 U 1 1 5A1E09A7
@@ -384,17 +373,6 @@ F 3 "" H 5950 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IR2181 U5
-U 1 1 5A25F65A
-P 4800 4750
-F 0 "U5" H 4850 5200 50  0000 L CNN
-F 1 "IR2181" H 4850 4300 50  0000 L CNN
-F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 4800 4750 50  0001 C CIN
-F 3 "" H 4800 4750 50  0001 C CNN
-	1    4800 4750
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R13
 U 1 1 5A25F660
 P 5300 4550
@@ -475,17 +453,6 @@ F 1 "irf540n" H 6150 6450 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_TabUp" H 6150 6600 50  0001 C CNN
 F 3 "" H 5950 6500 50  0001 C CNN
 	1    5950 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L IR2181 U6
-U 1 1 5A25F6B4
-P 4800 6200
-F 0 "U6" H 4850 6650 50  0000 L CNN
-F 1 "IR2181" H 4850 5750 50  0000 L CNN
-F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 4800 6200 50  0001 C CIN
-F 3 "" H 4800 6200 50  0001 C CNN
-	1    4800 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -597,17 +564,6 @@ F 3 "" H 8050 1950 50  0001 C CNN
 	1    8050 1950
 	1    0    0    -1  
 $EndComp
-$Comp
-L C_Small C13
-U 1 1 5A264A9C
-P 8550 2250
-F 0 "C13" H 8650 2200 50  0000 L CNN
-F 1 "0.1uF" H 8650 2100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8550 2250 50  0001 C CNN
-F 3 "" H 8550 2250 50  0001 C CNN
-	1    8550 2250
-	1    0    0    -1  
-$EndComp
 Text Label 7350 2500 0    60   ~ 0
 GNDD
 Text Label 9050 2200 0    60   ~ 0
@@ -622,16 +578,16 @@ Text Label 10700 2000 0    60   ~ 0
 SPI0_MISO
 Text Label 6900 1900 0    60   ~ 0
 HB0
-Text Label 7350 2150 0    60   ~ 0
-HB0
 Text Label 7350 1750 0    60   ~ 0
+HB0
+Text Label 7350 2150 0    60   ~ 0
 HB0s
 Text Label 6900 3350 0    60   ~ 0
 HB1
 Text Label 6900 4800 0    60   ~ 0
 HB2
 Text Label 10250 800  0    60   ~ 0
-HB2s
+HB2
 Text Label 10250 600  0    60   ~ 0
 HB0s
 Text Label 10250 700  0    60   ~ 0
@@ -639,7 +595,7 @@ HB1
 Text Label 6900 6250 0    60   ~ 0
 HB3
 Text Label 10250 900  0    60   ~ 0
-HB3
+HB3s
 Text Label 1200 1200 0    60   ~ 0
 +3.3V
 Text Label 950  2650 0    60   ~ 0
@@ -869,22 +825,11 @@ Text Label 1700 5000 0    60   ~ 0
 Text Label 7350 3000 0    60   ~ 0
 +5V
 Text Label 7350 3350 0    60   ~ 0
-HB2s
+HB3s
 Text Label 7350 3750 0    60   ~ 0
-HB2
+HB3
 Text Label 7350 4100 0    60   ~ 0
 GNDD
-$Comp
-L C_Small C14
-U 1 1 5A254D23
-P 8550 3850
-F 0 "C14" H 8650 3800 50  0000 L CNN
-F 1 "0.1uF" H 8650 3700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8550 3850 50  0001 C CNN
-F 3 "" H 8550 3850 50  0001 C CNN
-	1    8550 3850
-	1    0    0    -1  
-$EndComp
 $Comp
 L ACS712xLCTR-30A U8
 U 1 1 5A254D1D
@@ -1232,11 +1177,9 @@ Wire Wire Line
 Connection ~ 8050 2500
 Connection ~ 8550 2500
 Wire Wire Line
-	8550 2350 8550 2500
+	8550 2050 8550 2500
 Wire Wire Line
 	8050 2500 8050 2350
-Wire Wire Line
-	8550 2050 8550 2150
 Wire Wire Line
 	8450 2050 8550 2050
 Wire Wire Line
@@ -1607,13 +1550,11 @@ Wire Wire Line
 Wire Wire Line
 	8450 3650 8550 3650
 Wire Wire Line
-	8550 3650 8550 3750
+	8550 3650 8550 4100
 Wire Wire Line
 	7350 4100 10200 4100
 Wire Wire Line
 	8050 4100 8050 3950
-Wire Wire Line
-	8550 4100 8550 3950
 Connection ~ 8550 4100
 Connection ~ 8050 4100
 Wire Wire Line
@@ -1724,17 +1665,6 @@ F 3 "" H 5100 2750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5350 4200 5450 4200
-$Comp
-L IR2181 U4
-U 1 1 5A25F1D0
-P 4800 3300
-F 0 "U4" H 4850 3750 50  0000 L CNN
-F 1 "IR2181" H 4850 2850 50  0000 L CNN
-F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 4800 3300 50  0001 C CIN
-F 3 "" H 4800 3300 50  0001 C CNN
-	1    4800 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 2750 4900 2750
 Wire Wire Line
@@ -1763,5 +1693,49 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 5100 5650 50  0001 C CNN
 F 3 "" H 5100 5650 50  0001 C CNN
 	1    5100 5650
 	-1   0    0    1   
+$EndComp
+$Comp
+L IR2101 U3
+U 1 1 5A8A38B7
+P 4800 1850
+F 0 "U3" H 4850 2300 50  0000 L CNN
+F 1 "IR25606" H 4800 1400 50  0000 L CNN
+F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 4800 1850 50  0001 C CIN
+F 3 "" H 4800 1850 50  0001 C CNN
+	1    4800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L IR2101 U4
+U 1 1 5A8A46BA
+P 4800 3300
+F 0 "U4" H 4850 3750 50  0000 L CNN
+F 1 "IR25606" H 4800 2850 50  0000 L CNN
+F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 4800 3300 50  0001 C CIN
+F 3 "" H 4800 3300 50  0001 C CNN
+	1    4800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L IR2101 U5
+U 1 1 5A8A4DFF
+P 4800 4750
+F 0 "U5" H 4850 5200 50  0000 L CNN
+F 1 "IR25606" H 4800 4300 50  0000 L CNN
+F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 4800 4750 50  0001 C CIN
+F 3 "" H 4800 4750 50  0001 C CNN
+	1    4800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L IR2101 U6
+U 1 1 5A8A501E
+P 4800 6200
+F 0 "U6" H 4850 6650 50  0000 L CNN
+F 1 "IR25606" H 4800 5750 50  0000 L CNN
+F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 4800 6200 50  0001 C CIN
+F 3 "" H 4800 6200 50  0001 C CNN
+	1    4800 6200
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
