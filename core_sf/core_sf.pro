@@ -1,4 +1,4 @@
-update=Пт 22 дек 2017 20:16:56
+update=Чт 28 дек 2017 19:28:05
 version=1
 last_client=kicad
 [pcbnew]
@@ -34,3 +34,11 @@ LibName2=CPLD_Altera
 LibName3=Device
 LibName4=Diode
 LibName5=power
+LibName6=FPGA_Altera_Max10
+LibName7=MCU_ST_STM32
+LibName8=Interface_Ethernet
+LibName9=Regulator_Linear
+LibName10=Connector_Specialized
+LibName11=Oscillator
+LibName12=Interface_CAN_LIN
+LibName13=Interface_UART
