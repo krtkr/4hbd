@@ -31,11 +31,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 5500 2950 2    60   Output ~ 0
+Text HLabel 6600 2950 2    60   Output ~ 0
 EncA
-Text HLabel 5500 3250 2    60   Output ~ 0
+Text HLabel 6600 3250 2    60   Output ~ 0
 EncB
-Text HLabel 5500 3550 2    60   Output ~ 0
+Text HLabel 6600 3550 2    60   Output ~ 0
 EncZ
 Text HLabel 3450 2850 0    60   Input ~ 0
 EncA+
@@ -64,8 +64,85 @@ F 3 "" H 4800 3250 50  0001 C CNN
 	1    4800 3250
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R47
+U 1 1 5A425215
+P 3800 2950
+F 0 "R47" V 3880 2950 50  0000 C CNN
+F 1 "120" V 3800 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 2950 50  0001 C CNN
+F 3 "" H 3800 2950 50  0001 C CNN
+	1    3800 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R48
+U 1 1 5A425315
+P 3800 3250
+F 0 "R48" V 3880 3250 50  0000 C CNN
+F 1 "120" V 3800 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 3250 50  0001 C CNN
+F 3 "" H 3800 3250 50  0001 C CNN
+	1    3800 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R49
+U 1 1 5A425470
+P 3800 3550
+F 0 "R49" V 3880 3550 50  0000 C CNN
+F 1 "120" V 3800 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 3550 50  0001 C CNN
+F 3 "" H 3800 3550 50  0001 C CNN
+	1    3800 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C34
+U 1 1 5A47F1CB
+P 3850 2350
+F 0 "C34" H 3860 2420 50  0000 L CNN
+F 1 "0.1uF" H 3860 2270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3850 2350 50  0001 C CNN
+F 3 "" H 3850 2350 50  0001 C CNN
+	1    3850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R19
+U 1 1 5AA4913C
+P 5950 2700
+F 0 "R19" V 6030 2700 50  0000 C CNN
+F 1 "10k" V 5950 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 2700 50  0001 C CNN
+F 3 "" H 5950 2700 50  0001 C CNN
+	1    5950 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R20
+U 1 1 5AA49248
+P 6150 2700
+F 0 "R20" V 6230 2700 50  0000 C CNN
+F 1 "10k" V 6150 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 2700 50  0001 C CNN
+F 3 "" H 6150 2700 50  0001 C CNN
+	1    6150 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R21
+U 1 1 5AA49277
+P 6350 2700
+F 0 "R21" V 6430 2700 50  0000 C CNN
+F 1 "10k" V 6350 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6280 2700 50  0001 C CNN
+F 3 "" H 6350 2700 50  0001 C CNN
+	1    6350 2700
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	3750 2100 4800 2100
+	3750 2100 6350 2100
 Wire Wire Line
 	4800 2100 4800 2350
 Wire Wire Line
@@ -82,17 +159,6 @@ Wire Wire Line
 Wire Wire Line
 	4150 2750 4150 4500
 Connection ~ 4150 4500
-$Comp
-L R R47
-U 1 1 5A425215
-P 3800 2950
-F 0 "R47" V 3880 2950 50  0000 C CNN
-F 1 "120" V 3800 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 2950 50  0001 C CNN
-F 3 "" H 3800 2950 50  0001 C CNN
-	1    3800 2950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3450 2850 4200 2850
 Wire Wire Line
@@ -112,17 +178,6 @@ Wire Wire Line
 	4200 3250 4300 3250
 Wire Wire Line
 	3450 3350 4300 3350
-$Comp
-L R R48
-U 1 1 5A425315
-P 3800 3250
-F 0 "R48" V 3880 3250 50  0000 C CNN
-F 1 "120" V 3800 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 3250 50  0001 C CNN
-F 3 "" H 3800 3250 50  0001 C CNN
-	1    3800 3250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3650 3250 3550 3250
 Wire Wire Line
@@ -142,17 +197,6 @@ Wire Wire Line
 Connection ~ 4050 3050
 Wire Wire Line
 	3450 3650 4300 3650
-$Comp
-L R R49
-U 1 1 5A425470
-P 3800 3550
-F 0 "R49" V 3880 3550 50  0000 C CNN
-F 1 "120" V 3800 3550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 3550 50  0001 C CNN
-F 3 "" H 3800 3550 50  0001 C CNN
-	1    3800 3550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3450 3450 4200 3450
 Wire Wire Line
@@ -170,26 +214,33 @@ Wire Wire Line
 	3550 3550 3550 3450
 Connection ~ 3550 3450
 Wire Wire Line
-	5300 2950 5500 2950
+	5300 2950 6600 2950
 Wire Wire Line
-	5300 3250 5500 3250
+	5300 3250 6600 3250
 Wire Wire Line
-	5300 3550 5500 3550
-$Comp
-L C_Small C34
-U 1 1 5A47F1CB
-P 3850 2350
-F 0 "C34" H 3860 2420 50  0000 L CNN
-F 1 "0.1uF" H 3860 2270 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3850 2350 50  0001 C CNN
-F 3 "" H 3850 2350 50  0001 C CNN
-	1    3850 2350
-	1    0    0    -1  
-$EndComp
+	5300 3550 6600 3550
 Wire Wire Line
 	3850 2750 3850 2450
 Connection ~ 4150 2750
 Wire Wire Line
 	3850 2250 3850 2100
 Connection ~ 3850 2100
+Wire Wire Line
+	5950 2850 5950 2950
+Connection ~ 5950 2950
+Wire Wire Line
+	6150 2850 6150 3250
+Connection ~ 6150 3250
+Wire Wire Line
+	6350 2850 6350 3550
+Connection ~ 6350 3550
+Wire Wire Line
+	5950 2100 5950 2550
+Connection ~ 4800 2100
+Wire Wire Line
+	6150 2100 6150 2550
+Connection ~ 5950 2100
+Wire Wire Line
+	6350 2100 6350 2550
+Connection ~ 6150 2100
 $EndSCHEMATC
