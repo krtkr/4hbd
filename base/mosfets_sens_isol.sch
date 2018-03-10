@@ -21,7 +21,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -55,18 +55,6 @@ Text HLabel 1150 4700 0    60   Input ~ 0
 PWM3p
 Text HLabel 1150 4800 0    60   Input ~ 0
 PWM3n
-Text HLabel 2550 750  0    60   Input ~ 0
-SPI0_SCK
-Text HLabel 2550 850  0    60   Input ~ 0
-SPI0_CSn
-Text HLabel 2550 950  0    60   Output ~ 0
-SPI0_MISO
-Text HLabel 2550 1450 0    60   Input ~ 0
-SPI1_SCK
-Text HLabel 2550 1550 0    60   Input ~ 0
-SPI1_CSn
-Text HLabel 2550 1650 0    60   Output ~ 0
-SPI1_MISO
 Text HLabel 1000 1200 0    60   Input ~ 0
 +3.3V
 Text HLabel 1000 1450 0    60   UnSpc ~ 0
@@ -163,17 +151,6 @@ F 3 "" H 6600 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ADS7886 U10
-U 1 1 5A254D17
-P 10200 3550
-F 0 "U10" H 10250 4000 50  0000 L CNN
-F 1 "ADS7886" H 10250 3900 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 10650 3900 50  0001 L CNN
-F 3 "" H 9900 3900 50  0001 C CNN
-	1    10200 3550
-	1    0    0    -1  
-$EndComp
-$Comp
 L C_Small C9
 U 1 1 5A257F29
 P 7800 4700
@@ -237,28 +214,6 @@ F 1 "0.1uF" H 8150 5750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8400 5550 50  0001 C CNN
 F 3 "" H 8400 5550 50  0001 C CNN
 	1    8400 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L C_Small C14
-U 1 1 5A25BF04
-P 9500 5550
-F 0 "C14" H 9350 5650 50  0000 L CNN
-F 1 "0.1uF" H 9250 5750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9500 5550 50  0001 C CNN
-F 3 "" H 9500 5550 50  0001 C CNN
-	1    9500 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L C_Small C16
-U 1 1 5A25BF0A
-P 10100 5550
-F 0 "C16" H 9950 5650 50  0000 L CNN
-F 1 "0.1uF" H 9850 5750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10100 5550 50  0001 C CNN
-F 3 "" H 10100 5550 50  0001 C CNN
-	1    10100 5550
 	-1   0    0    1   
 $EndComp
 Text Label 6700 1300 0    47   ~ 0
@@ -526,33 +481,6 @@ Text Label 7500 4950 0    60   ~ 0
 GNDP
 Text Label 7500 5800 0    60   ~ 0
 GNDD
-Text Label 9200 5800 0    60   ~ 0
-GNDD
-Text Label 2700 750  0    60   ~ 0
-SPI0_SCK
-Text Label 2700 850  0    60   ~ 0
-SPI0_CSn
-Text Label 2700 950  0    60   ~ 0
-SPI0_MISO
-Text Label 2700 1450 0    60   ~ 0
-SPI1_SCK
-Text Label 2700 1550 0    60   ~ 0
-SPI1_CSn
-Text Label 2700 1650 0    60   ~ 0
-SPI1_MISO
-Text Label 9050 3800 0    60   ~ 0
-SPI1_SCK
-$Comp
-L ADS7886 U9
-U 1 1 5A264A90
-P 10200 1950
-F 0 "U9" H 10250 2400 50  0000 L CNN
-F 1 "ADS7886" H 10250 2300 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 10650 2300 50  0001 L CNN
-F 3 "" H 9900 2300 50  0001 C CNN
-	1    10200 1950
-	1    0    0    -1  
-$EndComp
 $Comp
 L ACS712xLCTR-30A U7
 U 1 1 5A264A96
@@ -566,16 +494,6 @@ F 3 "" H 8050 1950 50  0001 C CNN
 $EndComp
 Text Label 7350 2500 0    60   ~ 0
 GNDD
-Text Label 9050 2200 0    60   ~ 0
-SPI0_SCK
-Text Label 9050 3600 0    60   ~ 0
-SPI1_CSn
-Text Label 9050 2000 0    60   ~ 0
-SPI0_CSn
-Text Label 10700 3600 0    60   ~ 0
-SPI1_MISO
-Text Label 10700 2000 0    60   ~ 0
-SPI0_MISO
 Text Label 6900 1900 0    60   ~ 0
 HB0
 Text Label 7350 1750 0    60   ~ 0
@@ -732,12 +650,6 @@ Text HLabel 1000 1300 0    60   Input ~ 0
 +5V
 Text Label 1300 1300 0    60   ~ 0
 +5V
-Text Label 7350 1400 0    60   ~ 0
-+5V
-Text Label 7500 5350 0    60   ~ 0
-+5V
-Text Label 9200 5350 0    60   ~ 0
-+5V
 $Comp
 L SI8640 U2
 U 1 1 5A33BE3C
@@ -813,7 +725,7 @@ $EndComp
 Text Label 900  6750 0    60   ~ 0
 GNDD
 Text Label 2600 6750 0    60   ~ 0
-GNDD
+GNDP
 Text Label 2600 6300 0    60   ~ 0
 +5Vpwr
 Text Label 900  6300 0    60   ~ 0
@@ -822,8 +734,6 @@ Text Label 1650 3500 0    60   ~ 0
 +3.3V
 Text Label 1700 5000 0    60   ~ 0
 +3.3V
-Text Label 7350 3000 0    60   ~ 0
-+5V
 Text Label 7350 3350 0    60   ~ 0
 HB3s
 Text Label 7350 3750 0    60   ~ 0
@@ -840,50 +750,6 @@ F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 8150 3200 50  0001 L CIN
 F 3 "" H 8050 3550 50  0001 C CNN
 	1    8050 3550
 	1    0    0    -1  
-$EndComp
-$Comp
-L R R19
-U 1 1 5A3537D9
-P 9600 2000
-F 0 "R19" V 9700 2000 50  0000 C CNN
-F 1 "33" V 9600 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9600 2000 50  0001 C CNN
-F 3 "" H 9600 2000 50  0001 C CNN
-	1    9600 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L R R20
-U 1 1 5A354104
-P 9600 2200
-F 0 "R20" V 9700 2200 50  0000 C CNN
-F 1 "33" V 9600 2200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9600 2200 50  0001 C CNN
-F 3 "" H 9600 2200 50  0001 C CNN
-	1    9600 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L R R21
-U 1 1 5A35521E
-P 9600 3600
-F 0 "R21" V 9700 3600 50  0000 C CNN
-F 1 "33" V 9600 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9600 3600 50  0001 C CNN
-F 3 "" H 9600 3600 50  0001 C CNN
-	1    9600 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L R R22
-U 1 1 5A35533D
-P 9600 3800
-F 0 "R22" V 9700 3800 50  0000 C CNN
-F 1 "33" V 9600 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9600 3800 50  0001 C CNN
-F 3 "" H 9600 3800 50  0001 C CNN
-	1    9600 3800
-	0    1    1    0   
 $EndComp
 Text HLabel 9400 1000 0    60   Output ~ 0
 Csense0
@@ -942,72 +808,6 @@ GNDD
 Text Notes 8250 2950 0    60   ~ 0
 Place resistors\nclose to IDC\nconnector
 $Comp
-L Test_Point TP21
-U 1 1 5A48CF04
-P 3150 750
-F 0 "TP21" V 3150 1000 50  0000 C CNN
-F 1 "SPI0_sck" V 3150 1300 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3350 750 50  0001 C CNN
-F 3 "" H 3350 750 50  0001 C CNN
-	1    3150 750 
-	0    1    1    0   
-$EndComp
-$Comp
-L Test_Point TP22
-U 1 1 5A490640
-P 3150 850
-F 0 "TP22" V 3150 1100 50  0000 C CNN
-F 1 "SPI0_cs" V 3150 1400 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3350 850 50  0001 C CNN
-F 3 "" H 3350 850 50  0001 C CNN
-	1    3150 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Test_Point TP23
-U 1 1 5A490983
-P 3150 950
-F 0 "TP23" V 3150 1200 50  0000 C CNN
-F 1 "SPI0_miso" V 3150 1550 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3350 950 50  0001 C CNN
-F 3 "" H 3350 950 50  0001 C CNN
-	1    3150 950 
-	0    1    1    0   
-$EndComp
-$Comp
-L Test_Point TP24
-U 1 1 5A490FA0
-P 3150 1450
-F 0 "TP24" V 3150 1700 50  0000 C CNN
-F 1 "SPI1_sck" V 3150 2000 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3350 1450 50  0001 C CNN
-F 3 "" H 3350 1450 50  0001 C CNN
-	1    3150 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L Test_Point TP25
-U 1 1 5A4910BE
-P 3150 1550
-F 0 "TP25" V 3150 1800 50  0000 C CNN
-F 1 "SPI1_cs" V 3150 2100 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3350 1550 50  0001 C CNN
-F 3 "" H 3350 1550 50  0001 C CNN
-	1    3150 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Test_Point TP26
-U 1 1 5A4911D3
-P 3150 1650
-F 0 "TP26" V 3150 1900 50  0000 C CNN
-F 1 "SPI1_miso" V 3150 2250 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3350 1650 50  0001 C CNN
-F 3 "" H 3350 1650 50  0001 C CNN
-	1    3150 1650
-	0    1    1    0   
-$EndComp
-$Comp
 L Test_Point TP28
 U 1 1 5A4A934F
 P 5650 1000
@@ -1040,10 +840,6 @@ F 3 "" H 6200 1000 50  0001 C CNN
 	1    6000 1000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7350 2500 10200 2500
-Wire Wire Line
-	7350 1400 10200 1400
 Wire Wire Line
 	3250 5200 3400 5200
 Connection ~ 3400 5300
@@ -1162,12 +958,6 @@ Wire Wire Line
 Wire Wire Line
 	10750 600  10250 600 
 Wire Wire Line
-	10600 2000 11150 2000
-Wire Wire Line
-	10200 2500 10200 2350
-Wire Wire Line
-	10200 1400 10200 1550
-Wire Wire Line
 	7350 2150 7650 2150
 Wire Wire Line
 	7350 1750 7650 1750
@@ -1179,31 +969,13 @@ Connection ~ 8550 2500
 Wire Wire Line
 	8550 2050 8550 2500
 Wire Wire Line
-	8050 2500 8050 2350
+	8050 2350 8050 2500
 Wire Wire Line
 	8450 2050 8550 2050
-Wire Wire Line
-	8550 1800 9800 1800
 Wire Wire Line
 	8550 1950 8550 1800
 Wire Wire Line
 	8450 1950 8550 1950
-Wire Wire Line
-	10200 4100 10200 3950
-Wire Wire Line
-	10200 3000 10200 3150
-Wire Wire Line
-	2550 1450 3150 1450
-Wire Wire Line
-	2550 1550 3150 1550
-Wire Wire Line
-	2550 1650 3150 1650
-Wire Wire Line
-	2550 950  3150 950 
-Wire Wire Line
-	2550 850  3150 850 
-Wire Wire Line
-	2550 750  3150 750 
 Wire Wire Line
 	1000 1450 1450 1450
 Wire Wire Line
@@ -1369,22 +1141,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 1300 5650 1300
 Connection ~ 5350 1300
-Connection ~ 10100 5800
-Connection ~ 10100 5350
-Connection ~ 9500 5800
-Connection ~ 9500 5350
-Wire Wire Line
-	9500 5800 9500 5650
-Wire Wire Line
-	9200 5800 10400 5800
-Wire Wire Line
-	10100 5800 10100 5650
-Wire Wire Line
-	10100 5350 10100 5450
-Wire Wire Line
-	9200 5350 10400 5350
-Wire Wire Line
-	9500 5450 9500 5350
 Connection ~ 8400 5800
 Connection ~ 8400 5350
 Connection ~ 7800 5800
@@ -1429,8 +1185,6 @@ Wire Wire Line
 	7500 4500 9850 4500
 Wire Wire Line
 	7800 4600 7800 4500
-Wire Wire Line
-	10600 3600 11150 3600
 Wire Wire Line
 	6600 2400 6600 2300
 Connection ~ 6600 1900
@@ -1546,13 +1300,9 @@ Wire Wire Line
 Wire Wire Line
 	8550 3550 8550 3400
 Wire Wire Line
-	8550 3400 9800 3400
-Wire Wire Line
 	8450 3650 8550 3650
 Wire Wire Line
 	8550 3650 8550 4100
-Wire Wire Line
-	7350 4100 10200 4100
 Wire Wire Line
 	8050 4100 8050 3950
 Connection ~ 8550 4100
@@ -1564,28 +1314,6 @@ Wire Wire Line
 	7350 3350 7650 3350
 Wire Wire Line
 	7350 3750 7650 3750
-Wire Wire Line
-	7350 3000 10200 3000
-Wire Wire Line
-	9750 2000 9800 2000
-Wire Wire Line
-	9450 2000 9050 2000
-Wire Wire Line
-	9800 2100 9750 2100
-Wire Wire Line
-	9750 2100 9750 2200
-Wire Wire Line
-	9450 2200 9050 2200
-Wire Wire Line
-	9450 3600 9050 3600
-Wire Wire Line
-	9450 3800 9050 3800
-Wire Wire Line
-	9750 3600 9800 3600
-Wire Wire Line
-	9800 3700 9750 3700
-Wire Wire Line
-	9750 3700 9750 3800
 Wire Wire Line
 	9100 1200 9000 1200
 Wire Wire Line
@@ -1738,4 +1466,244 @@ F 3 "" H 4800 6200 50  0001 C CNN
 	1    4800 6200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9000 1800 8550 1800
+Wire Wire Line
+	7350 1400 8050 1400
+Wire Wire Line
+	8550 2500 7350 2500
+Wire Wire Line
+	9000 3400 8550 3400
+Wire Wire Line
+	7350 3000 8050 3000
+Wire Wire Line
+	8550 4100 7350 4100
+$Comp
+L CP C14
+U 1 1 5A9D6FE0
+P 2150 850
+F 0 "C14" H 2175 950 50  0000 L CNN
+F 1 "CP" H 2175 750 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" H 2188 700 50  0001 C CNN
+F 3 "" H 2150 850 50  0001 C CNN
+	1    2150 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C16
+U 1 1 5A9D7149
+P 2450 850
+F 0 "C16" H 2475 950 50  0000 L CNN
+F 1 "CP" H 2475 750 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" H 2488 700 50  0001 C CNN
+F 3 "" H 2450 850 50  0001 C CNN
+	1    2450 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C42
+U 1 1 5A9D7232
+P 2750 850
+F 0 "C42" H 2775 950 50  0000 L CNN
+F 1 "CP" H 2775 750 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 2788 700 50  0001 C CNN
+F 3 "" H 2750 850 50  0001 C CNN
+	1    2750 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C43
+U 1 1 5A9D731A
+P 3050 850
+F 0 "C43" H 3075 950 50  0000 L CNN
+F 1 "CP" H 3075 750 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 3088 700 50  0001 C CNN
+F 3 "" H 3050 850 50  0001 C CNN
+	1    3050 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 700  3050 600 
+Wire Wire Line
+	3050 600  1750 600 
+Wire Wire Line
+	2150 700  2150 600 
+Connection ~ 2150 600 
+Wire Wire Line
+	2450 700  2450 600 
+Connection ~ 2450 600 
+Wire Wire Line
+	2750 700  2750 600 
+Connection ~ 2750 600 
+Wire Wire Line
+	3050 1000 3050 1100
+Wire Wire Line
+	3050 1100 1750 1100
+Wire Wire Line
+	2150 1000 2150 1100
+Connection ~ 2150 1100
+Wire Wire Line
+	2450 1000 2450 1100
+Connection ~ 2450 1100
+Wire Wire Line
+	2750 1000 2750 1100
+Connection ~ 2750 1100
+Text Label 1750 600  0    60   ~ 0
+Vpwr
+Text Label 1750 1100 0    60   ~ 0
+GNDP
+$Comp
+L CP C44
+U 1 1 5A9DB154
+P 2150 1500
+F 0 "C44" H 2175 1600 50  0000 L CNN
+F 1 "CP" H 2175 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric_Pad2.02x5.50mm_HandSolder" H 2188 1350 50  0001 C CNN
+F 3 "" H 2150 1500 50  0001 C CNN
+	1    2150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C45
+U 1 1 5A9DB15A
+P 2450 1500
+F 0 "C45" H 2475 1600 50  0000 L CNN
+F 1 "CP" H 2475 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric_Pad2.02x5.50mm_HandSolder" H 2488 1350 50  0001 C CNN
+F 3 "" H 2450 1500 50  0001 C CNN
+	1    2450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C46
+U 1 1 5A9DB160
+P 2750 1500
+F 0 "C46" H 2775 1600 50  0000 L CNN
+F 1 "CP" H 2775 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric_Pad2.02x5.50mm_HandSolder" H 2788 1350 50  0001 C CNN
+F 3 "" H 2750 1500 50  0001 C CNN
+	1    2750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C47
+U 1 1 5A9DB166
+P 3050 1500
+F 0 "C47" H 3075 1600 50  0000 L CNN
+F 1 "CP" H 3075 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric_Pad2.02x5.50mm_HandSolder" H 3088 1350 50  0001 C CNN
+F 3 "" H 3050 1500 50  0001 C CNN
+	1    3050 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1350 3050 1250
+Wire Wire Line
+	3050 1250 1750 1250
+Wire Wire Line
+	2150 1350 2150 1250
+Connection ~ 2150 1250
+Wire Wire Line
+	2450 1350 2450 1250
+Connection ~ 2450 1250
+Wire Wire Line
+	2750 1350 2750 1250
+Connection ~ 2750 1250
+Wire Wire Line
+	3050 1650 3050 1750
+Wire Wire Line
+	3050 1750 1750 1750
+Wire Wire Line
+	2150 1650 2150 1750
+Connection ~ 2150 1750
+Wire Wire Line
+	2450 1650 2450 1750
+Connection ~ 2450 1750
+Wire Wire Line
+	2750 1650 2750 1750
+Connection ~ 2750 1750
+Text Label 1750 1250 0    60   ~ 0
+Vpwr
+Text Label 1750 1750 0    60   ~ 0
+GNDP
+$Comp
+L CP C40
+U 1 1 5AA1BAD6
+P 2150 2150
+F 0 "C40" H 2175 2250 50  0000 L CNN
+F 1 "CP" H 2175 2050 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 2188 2000 50  0001 C CNN
+F 3 "" H 2150 2150 50  0001 C CNN
+	1    2150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C41
+U 1 1 5AA1BADC
+P 2450 2150
+F 0 "C41" H 2475 2250 50  0000 L CNN
+F 1 "CP" H 2475 2050 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 2488 2000 50  0001 C CNN
+F 3 "" H 2450 2150 50  0001 C CNN
+	1    2450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C48
+U 1 1 5AA1BAE2
+P 2750 2150
+F 0 "C48" H 2775 2250 50  0000 L CNN
+F 1 "CP" H 2775 2050 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 2788 2000 50  0001 C CNN
+F 3 "" H 2750 2150 50  0001 C CNN
+	1    2750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C49
+U 1 1 5AA1BAE8
+P 3050 2150
+F 0 "C49" H 3075 2250 50  0000 L CNN
+F 1 "CP" H 3075 2050 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 3088 2000 50  0001 C CNN
+F 3 "" H 3050 2150 50  0001 C CNN
+	1    3050 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2000 3050 1900
+Wire Wire Line
+	3050 1900 1750 1900
+Wire Wire Line
+	2150 2000 2150 1900
+Connection ~ 2150 1900
+Wire Wire Line
+	2450 2000 2450 1900
+Connection ~ 2450 1900
+Wire Wire Line
+	2750 2000 2750 1900
+Connection ~ 2750 1900
+Wire Wire Line
+	3050 2300 3050 2400
+Wire Wire Line
+	3050 2400 1750 2400
+Wire Wire Line
+	2150 2300 2150 2400
+Connection ~ 2150 2400
+Wire Wire Line
+	2450 2300 2450 2400
+Connection ~ 2450 2400
+Wire Wire Line
+	2750 2300 2750 2400
+Connection ~ 2750 2400
+Text Label 1750 1900 0    60   ~ 0
+Vpwr
+Text Label 1750 2400 0    60   ~ 0
+GNDP
+Text Label 7350 1400 0    60   ~ 0
++3.3V
+Text Label 7350 3000 0    60   ~ 0
++3.3V
+Text Label 7500 5350 0    60   ~ 0
++3.3V
 $EndSCHEMATC
