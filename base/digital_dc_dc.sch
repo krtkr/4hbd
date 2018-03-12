@@ -610,19 +610,6 @@ $EndComp
 Wire Wire Line
 	4250 5250 4250 5350
 Connection ~ 4250 5350
-$Comp
-L Test_Point TP30
-U 1 1 5A4A0D23
-P 1300 2700
-F 0 "TP30" H 1300 2970 50  0000 C CNN
-F 1 "+24Vd_IN" H 1300 2900 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1500 2700 50  0001 C CNN
-F 3 "" H 1500 2700 50  0001 C CNN
-	1    1300 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 2700 1300 3000
 Connection ~ 1300 3000
 $Comp
 L Test_Point TP33

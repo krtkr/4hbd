@@ -220,17 +220,6 @@ Output voltage set to 10.27V here, should be enough for drivers
 Text Notes 9450 2050 0    60   ~ 0
 Consumtion 10 mA .. 70 mA expected
 $Comp
-L Test_Point TP35
-U 1 1 5A4A3905
-P 3000 1200
-F 0 "TP35" H 3000 1470 50  0000 C CNN
-F 1 "+24Vp_IN" H 3000 1400 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3200 1200 50  0001 C CNN
-F 3 "" H 3200 1200 50  0001 C CNN
-	1    3000 1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Test_Point TP36
 U 1 1 5A4A3B60
 P 8750 1550
@@ -259,8 +248,6 @@ Connection ~ 8750 1650
 Wire Wire Line
 	8750 1550 8750 1650
 Connection ~ 3000 1700
-Wire Wire Line
-	3000 1200 3000 1700
 Connection ~ 9000 2400
 Connection ~ 8400 2400
 Wire Wire Line

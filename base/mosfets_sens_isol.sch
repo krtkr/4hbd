@@ -807,39 +807,6 @@ Text Label 10000 2800 0    60   ~ 0
 GNDD
 Text Notes 8250 2950 0    60   ~ 0
 Place resistors\nclose to IDC\nconnector
-$Comp
-L Test_Point TP28
-U 1 1 5A4A934F
-P 5650 1000
-F 0 "TP28" H 5650 1300 50  0000 C CNN
-F 1 "driver_VS" H 5650 1200 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5850 1000 50  0001 C CNN
-F 3 "" H 5850 1000 50  0001 C CNN
-	1    5650 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Test_Point TP27
-U 1 1 5A4A9424
-P 5350 1000
-F 0 "TP27" H 5250 1300 50  0000 C CNN
-F 1 "driver_VB" H 5150 1200 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5550 1000 50  0001 C CNN
-F 3 "" H 5550 1000 50  0001 C CNN
-	1    5350 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Test_Point TP29
-U 1 1 5A4AA2DB
-P 6000 1000
-F 0 "TP29" H 6000 1300 50  0000 C CNN
-F 1 "driver_HO" H 6050 1200 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6200 1000 50  0001 C CNN
-F 3 "" H 6200 1000 50  0001 C CNN
-	1    6000 1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3250 5200 3400 5200
 Connection ~ 3400 5300
@@ -1137,8 +1104,6 @@ Wire Wire Line
 	6050 1300 6850 1300
 Connection ~ 5650 1900
 Wire Wire Line
-	5650 1000 5650 1900
-Wire Wire Line
 	5600 1300 5650 1300
 Connection ~ 5350 1300
 Connection ~ 8400 5800
@@ -1361,12 +1326,6 @@ Wire Notes Line
 Connection ~ 5650 1300
 Connection ~ 5750 1650
 Connection ~ 6600 1300
-Wire Wire Line
-	5750 1650 5750 1050
-Wire Wire Line
-	5750 1050 6000 1050
-Wire Wire Line
-	6000 1050 6000 1000
 $Comp
 L D_Schottky_AKK D1
 U 1 1 5A690E26
@@ -1706,4 +1665,6 @@ Text Label 7350 3000 0    60   ~ 0
 +3.3V
 Text Label 7500 5350 0    60   ~ 0
 +3.3V
+Wire Wire Line
+	5650 1000 5650 1900
 $EndSCHEMATC

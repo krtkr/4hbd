@@ -559,145 +559,15 @@ Wire Wire Line
 Connection ~ 8700 4500
 Wire Wire Line
 	5000 5500 8700 5500
-$Comp
-L Test_Point TP8
-U 1 1 5A46A9D0
-P 5350 1100
-F 0 "TP8" H 5350 1370 50  0000 C CNN
-F 1 "PWM0p" H 5350 1300 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5550 1100 50  0001 C CNN
-F 3 "" H 5550 1100 50  0001 C CNN
-	1    5350 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Test_Point TP9
-U 1 1 5A46B390
-P 5550 950
-F 0 "TP9" H 5550 1220 50  0000 C CNN
-F 1 "PWM0n" H 5550 1150 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5750 950 50  0001 C CNN
-F 3 "" H 5750 950 50  0001 C CNN
-	1    5550 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Test_Point TP10
-U 1 1 5A46B6D5
-P 5750 1100
-F 0 "TP10" H 5750 1370 50  0000 C CNN
-F 1 "PWM1p" H 5750 1300 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5950 1100 50  0001 C CNN
-F 3 "" H 5950 1100 50  0001 C CNN
-	1    5750 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Test_Point TP11
-U 1 1 5A46BA19
-P 5950 950
-F 0 "TP11" H 5950 1220 50  0000 C CNN
-F 1 "PWM1n" H 5950 1150 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6150 950 50  0001 C CNN
-F 3 "" H 6150 950 50  0001 C CNN
-	1    5950 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Test_Point TP12
-U 1 1 5A46BD70
-P 6150 1100
-F 0 "TP12" H 6150 1370 50  0000 C CNN
-F 1 "PWM2p" H 6150 1300 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6350 1100 50  0001 C CNN
-F 3 "" H 6350 1100 50  0001 C CNN
-	1    6150 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Test_Point TP13
-U 1 1 5A46C268
-P 6350 950
-F 0 "TP13" H 6350 1220 50  0000 C CNN
-F 1 "PWM2n" H 6350 1150 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 950 50  0001 C CNN
-F 3 "" H 6550 950 50  0001 C CNN
-	1    6350 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Test_Point TP14
-U 1 1 5A46F508
-P 6550 1100
-F 0 "TP14" H 6550 1370 50  0000 C CNN
-F 1 "PWM3p" H 6550 1300 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6750 1100 50  0001 C CNN
-F 3 "" H 6750 1100 50  0001 C CNN
-	1    6550 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Test_Point TP15
-U 1 1 5A470294
-P 6750 950
-F 0 "TP15" H 6750 1220 50  0000 C CNN
-F 1 "PWM3n" H 6750 1150 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6950 950 50  0001 C CNN
-F 3 "" H 6950 950 50  0001 C CNN
-	1    6750 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 950  6750 2300
 Connection ~ 6750 2300
-Wire Wire Line
-	6550 1100 6550 2200
 Connection ~ 6550 2200
-Wire Wire Line
-	6350 950  6350 2100
 Connection ~ 6350 2100
-Wire Wire Line
-	6150 1100 6150 2000
 Connection ~ 6150 2000
-Wire Wire Line
-	5950 950  5950 1900
 Connection ~ 5950 1900
-Wire Wire Line
-	5750 1100 5750 1800
 Connection ~ 5750 1800
-Wire Wire Line
-	5550 950  5550 1700
 Connection ~ 5550 1700
-Wire Wire Line
-	5350 1100 5350 1600
 Connection ~ 5350 1600
-$Comp
-L Test_Point TP6
-U 1 1 5A474E99
-P 4800 900
-F 0 "TP6" H 4800 1170 50  0000 C CNN
-F 1 "Csen_0" H 4800 1100 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5000 900 50  0001 C CNN
-F 3 "" H 5000 900 50  0001 C CNN
-	1    4800 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Test_Point TP7
-U 1 1 5A475205
-P 5100 900
-F 0 "TP7" H 5100 1170 50  0000 C CNN
-F 1 "Csen_1" H 5100 1100 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5300 900 50  0001 C CNN
-F 3 "" H 5300 900 50  0001 C CNN
-	1    5100 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 900  4800 1300
 Connection ~ 4800 1300
-Wire Wire Line
-	5100 900  5100 1400
 Connection ~ 5100 1400
 $Comp
 L GNDD #PWR011
@@ -752,17 +622,6 @@ F 1 "GNDd" H 8200 6350 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8400 6150 50  0001 C CNN
 F 3 "" H 8400 6150 50  0001 C CNN
 	1    8200 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Test_Point TP20
-U 1 1 5A49968B
-P 8450 6150
-F 0 "TP20" H 8450 6420 50  0000 C CNN
-F 1 "GNDd" H 8450 6350 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8650 6150 50  0001 C CNN
-F 3 "" H 8650 6150 50  0001 C CNN
-	1    8450 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -824,21 +683,6 @@ F 3 "" H 3550 7300 50  0001 C CNN
 	1    3350 7300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Test_Point TP5
-U 1 1 5A49B480
-P 3600 7300
-F 0 "TP5" H 3600 7570 50  0000 C CNN
-F 1 "GNDp" H 3600 7500 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3800 7300 50  0001 C CNN
-F 3 "" H 3800 7300 50  0001 C CNN
-	1    3600 7300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 7400 3600 7300
-Wire Wire Line
-	2600 7400 3600 7400
 Wire Wire Line
 	3100 7300 3100 7500
 Wire Wire Line
@@ -1069,4 +913,6 @@ F 3 "" H 10900 2900 50  0001 C CNN
 	1    10900 2900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2600 7400 3600 7400
 $EndSCHEMATC
